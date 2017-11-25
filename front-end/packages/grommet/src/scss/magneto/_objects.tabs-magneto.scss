@@ -1,0 +1,376 @@
+// (C) Copyright 2014-2016 Hewlett Packard Enterprise Development LP
+
+$tab-border-width: 2px;
+$tab-padding: 12px 25px;
+$tab-content-padding: 25px;
+
+.#{$grommet-namespace}tabs {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  border: none;
+
+  &.#{$grommet-namespace}tabs--top-highlight {
+    .#{$grommet-namespace}tab {
+      &--active {
+        border-top: 3px solid #2c9add;
+      }
+    }
+  }
+
+  &.#{$grommet-namespace}tabs--stretch {
+    .#{$grommet-namespace}tab {
+      flex-basis: 0;
+      flex-grow: 1;
+      flex-shrink: 1;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      background: #f9f9f9;
+
+      &--active {
+        background: #fff;
+        border-bottom: 1px solid #fff;
+      }
+    }
+
+    & + div[aria-label='Tab Contents'] {
+      border-top-right-radius: 0;
+    }
+  }
+
+  &.#{$grommet-namespace}tabs--radio {
+    .#{$grommet-namespace}tab {
+      line-height: 50px;
+    }
+  }
+
+  .#{$grommet-namespace}tab {
+    padding: 0;
+    width: 200px;
+    border: 1px solid #e0e0e0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: #eaeaea;
+    bottom: -1px;
+    position: relative;
+    cursor: pointer;
+
+    + .#{$grommet-namespace}tab {
+      border-left: none;
+    }
+
+    &__button {
+      padding: 0;
+      text-align: center;
+      width: 100%;
+      position: relative;
+    }
+
+    &__label {
+      .grommetux-counting-tab-title {
+        margin-top: 32px;
+        margin-bottom: 20px;
+      }
+
+      .grommetux-radio-button {
+        &__control {
+          width: 16px;
+          height: 16px;
+          margin-left: 9px;
+
+          &:after {
+            width: 6px;
+            height: 6px;
+            top: 3px;
+            left: 3px;
+          }
+        }
+
+        &__label {
+          font-size: 14px;
+          line-height: 27px;
+        }
+
+        input:checked ~ .grommetux-radio-button__label {
+          font-weight: 600;
+          color: #2c9add;
+        }
+      }
+    }
+
+    &--active {
+      border-color: #d4d4d4;
+      border-bottom-color: #fff;
+      background: #fff;
+
+      .#{$grommet-namespace}tab__label {
+        .grommetux-counting-tab-title {
+          color: #2c9add;
+        }
+      }
+    }
+  }
+
+  .#{$grommet-namespace}tab {
+    .#{$grommet-namespace}radio-button {
+      margin: 0;
+    }
+
+    &--active {
+      .#{$grommet-namespace}tab__label {
+        > span {
+          color: #424242;
+        }
+      }
+    }
+
+    &__label {
+      padding-bottom: 0;
+      line-height: 40px;
+      border: none;
+      font-weight: 500;
+
+      > span {
+        color: #ababab;
+        font-weight: 700;
+      }
+
+      .tab-title,
+      .tab-title span {
+        display: block;
+        &[class*='badge'] {
+          display: inline-block;
+          float: right;
+        }
+      }
+      .tab-title {
+        font-size: 18px;
+        color: $text-color;
+        font-weight: 300;
+        line-height: 1.22;
+
+        &--sub {
+          font-size: 14px;
+          color: $label-text-color;
+          line-height: 1.57;
+        }
+        &--num {
+          font-size: 24px;
+        }
+        &--badge {
+          min-width: 31px;
+          height: 21px;
+          font-size: 12px;
+          font-weight: 700;
+          line-height: 1.92;
+          color: #a7a7a7;
+          text-align: center;
+          white-space: nowrap;
+          vertical-align: middle;
+          background-color: #f5f5f5;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+
+  &--justify-justify {
+    .#{$grommet-namespace}tab {
+      &__button {
+        top: 0;
+        padding: $tab-padding;
+        &:first-child {
+          padding-left: 25px;
+        }
+        > label {
+          padding: 5px 0;
+        }
+      }
+    }
+  }
+
+  &--justify-start {
+    .#{$grommet-namespace}tab {
+      &__button {
+        &:first-child {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+
+  &--justify-end {
+    .#{$grommet-namespace}tab {
+      &__button {
+        &:last-child {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+
+  + div:focus {
+    outline: none;
+  }
+
+  + div[aria-label='Tab Contents'] {
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    border-top-left-radius: 0;
+  }
+}
+
+.#{$grommet-namespace}tabs--justify-justify {
+  justify-content: center;
+  flex-wrap: nowrap;
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+  border-color: $border-color;
+  //border-color: #e8e8e8;
+
+  .#{$grommet-namespace}tab {
+    flex-grow: 1;
+    background-color: #fcfcfc;
+    @include media-query(lap-and-up) {
+      border-bottom: 2px solid #e5e5e5;
+      border-right: 2px solid #e5e5e5;
+      border-top: 0;
+    }
+    @include media-query(palm) {
+      border: 0;
+    }
+    &:last-child {
+      border-right: 0;
+    }
+    &--active {
+      background-color: transparent;
+      border-bottom: 2px solid transparent;
+      .tab-title {
+        color: $brand-color;
+      }
+    }
+
+    &__label {
+      &,
+      label {
+        width: 100%;
+      }
+      border-bottom: 0;
+    }
+    &__button {
+      display: flex;
+    }
+  }
+}
+
+.tab_justify__contents {
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: $border-color;
+}
+
+.#{$grommet-namespace}tabs--justify-justify {
+  &.#{$grommet-namespace}tabs--responsive {
+    @include media-query(palm) {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+}
+
+.#{$grommet-namespace}tabs--vertical {
+  $triangle-size: 20px;
+  $triangle-shadow-size: 4px;
+
+  display: flex;
+
+  & > .#{$grommet-namespace}tabs {
+    flex-direction: column;
+    justify-content: flex-start;
+    border: none;
+    width: 170px;
+    min-height: 84px;
+    margin: 0;
+    margin-right: $triangle-size/2;
+    text-transform: uppercase;
+    .#{$grommet-namespace}tab {
+      border: 1px solid $border-color;
+      width: 100%;
+      position: relative;
+      background: $background-color;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+      @include border-left-radius($border-radius);
+      @include border-right-radius($border-radius);
+
+      &:after,
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        right: - $triangle-size/2;
+      }
+
+      &:before {
+        @include triangle(($triangle-size + $triangle-shadow-size), $border-color, right);
+        bottom: calc(50% - #{($triangle-size + $triangle-shadow-size/2 + 1)/2});
+        right: - ($triangle-size/2 + $triangle-shadow-size/2);
+      }
+
+      &:after {
+        @include triangle($triangle-size, $background-color, right);
+        top: calc(50% - #{$triangle-size/2});
+      }
+
+      span,
+      label,
+      button {
+        text-transform: uppercase;
+        font-size: $base-font-size;
+        margin: 0;
+        color: $secondary-text-color;
+      }
+
+      span {
+        font-size: 12px;
+        &.tab-title--num {
+          color: $label-text-color;
+          font-size: 24px;
+          font-weight: 300;
+        }
+      }
+
+      &--active {
+        color: $brand-color;
+
+        .#{$grommet-namespace}tab__label {
+          color: $brand-color;
+        }
+
+        span {
+          color: $brand-color;
+          &.tab-title--num {
+            color: $brand-color;
+          }
+        }
+      }
+
+      &__button {
+        padding: 12px;
+      }
+
+      label {
+        border: none;
+      }
+    }
+  }
+  & > div[role='tabpanel'] {
+    //flex-grow: 1;
+    //min-height: 196px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,75 @@
+.#{$grommet-namespace}check-box-group {
+  list-style: none;
+  &-item {
+    float: left;
+    background-color: #fcfcfc;
+    border: 1px solid $border-color;
+    border-left: 0;
+    position: relative;
+
+    &--checked {
+      background-color: #fff;
+    }
+
+    > label {
+      padding: 0 23px;
+      cursor: pointer;
+      margin: 0;
+      display: block;
+      color: $text-color;
+      &:hover {
+        color: $hover-text-color;
+      }
+    }
+
+    &--label {
+      white-space: nowrap;
+      font-size: 0.93rem;
+      line-height: 2.3;
+    }
+
+    $border-radius: 100px;
+    &:first-child {
+      border-left: 1px solid $border-color;
+      @include border-left-radius($border-radius);
+    }
+
+    &:last-child {
+      @include border-right-radius($border-radius);
+    }
+  }
+
+  &__closer {
+    .#{$grommet-namespace}button__icon {
+      padding: 3px 18px;
+      .#{$grommet-namespace}control-icon {
+        vertical-align: middle;
+      }
+    }
+
+    &-icon__close {
+      @include size(10px);
+      stroke: #787878;
+    }
+  }
+
+  .#{$grommet-namespace}check-box {
+    margin: 0;
+  }
+
+  .#{$grommet-namespace}check-box__control {
+    margin: 0;
+    float: right;
+    border: 0;
+    top: 9px;
+    right: 2px;
+    position: absolute;
+    @include size(12px);
+
+    &-check {
+      stroke: #71c15c;
+      stroke-width: 5px;
+      @include size(12px);
+    }
+  }
+}

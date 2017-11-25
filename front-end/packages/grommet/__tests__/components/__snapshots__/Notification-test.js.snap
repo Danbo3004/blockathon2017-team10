@@ -1,0 +1,389 @@
+exports[`Notification has correct default options 1`] = `
+<div
+  className="grommetux-animate">
+  <div
+    className="grommetux-animate__child grommetux-animate__child--fade grommetux-animate__child--inactive "
+    style={
+      Object {
+        "transitionDuration": "1000ms",
+      }
+    }>
+    <div
+      className="grommetux-box grommetux-box--direction-row grommetux-box--align-start grommetux-box--pad-small grommetux-notification grommetux-notification--status-unknown grommetux-background-color-index-unknown grommetux-background-color-index--pending"
+      id={undefined}
+      onClick={undefined}
+      role={undefined}
+      style={Object {}}
+      tabIndex={undefined}>
+      <div
+        className="grommetux-box grommetux-box--direction-column grommetux-box--responsive grommetux-box--pad-small"
+        id={undefined}
+        onClick={undefined}
+        role={undefined}
+        style={Object {}}
+        tabIndex={undefined}>
+        <svg
+          aria-label="Unknown"
+          className="grommetux-status-icon grommetux-status-icon-unknown grommetux-notification__status"
+          role="img"
+          version="1.1"
+          viewBox="0 0 21 20">
+          <g
+            className="grommetux-status-icon__base">
+            <path
+              d="M10.497375,0.197446809 C4.976125,0.206382979 0.5018125,4.51574468 0.4248125,9.84851064 C0.3443125, 15.3765957 4.89475,19.6825532 10.262875,19.7978723 C15.913625,19.92 20.460125,15.5174468 20.5743125, 10.2153191 C20.692,4.74170213 16.156875,0.200851064 10.497375,0.197446809 L10.497375, 0.197446809 Z M10.374875,18.6093617 C5.558,18.5459574 1.5981875,14.6910638 1.6489375, 9.90553191 C1.6996875,5.18425532 5.6791875,1.38468085 10.50875,1.39191489 C15.39125, 1.39702128 19.348875,5.25829787 19.348875,10.0195745 C19.34625,14.7565957 15.3348125, 18.6731915 10.374875,18.6093617 L10.374875,18.6093617 Z"
+              id="Shape"
+              xmlns="http://www.w3.org/2000/svg" />
+          </g>
+          <g
+            className="grommetux-status-icon__detail">
+            <path
+              d="M10.4033125,7.72212766 C9.9658125,7.72085106 9.639, 8.00680851 9.639,8.39574468 C9.639,10.5910638 9.639,12.7880851 9.639875,14.9834043 C9.639875, 15.386383 9.944375,15.6587234 10.3919375,15.6604255 C10.8521875,15.6617021 11.15625,15.3897872 11.15625, 14.9761702 C11.157125,13.8804255 11.15625,12.786383 11.15625,11.6906383 C11.15625,10.5910638 11.157125, 9.49021277 11.15625,8.3893617 C11.1558125,8.00851064 10.8329375,7.72595745 10.4033125,7.72212766 L10.4033125, 7.72212766 Z"
+              id="Shape"
+              xmlns="http://www.w3.org/2000/svg" />
+            <path
+              d="M10.455375,4.88085106 C9.9019375,4.87744681 9.4679375, 5.28595745 9.4679375,5.80978723 C9.4679375,6.34765957 9.8870625,6.76255319 10.43175,6.76255319 C10.9781875, 6.76425532 11.4156875,6.34595745 11.4165625,5.82340426 C11.4165625,5.30851064 10.9834375,4.88297872 10.455375, 4.88085106 L10.455375,4.88085106 Z"
+              id="Shape"
+              xmlns="http://www.w3.org/2000/svg" />
+          </g>
+        </svg>
+      </div>
+      <div
+        className="grommetux-box grommetux-box--direction-column grommetux-box--responsive grommetux-box--flex grommetux-box--pad-vertical-small grommetux-box--pad-right-small"
+        id={undefined}
+        onClick={undefined}
+        role={undefined}
+        style={Object {}}
+        tabIndex={undefined}>
+        <span
+          className="grommetux-notification__message">
+          You will need a tray. The food is hot.
+        </span>
+      </div>
+      <button
+        aria-label="Close Notification"
+        className="grommetux-button grommetux-button--plain"
+        disabled={false}
+        href={undefined}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseDown={[Function]}
+        onMouseUp={[Function]}
+        style={Object {}}
+        type="button">
+        <span
+          className="grommetux-button__icon">
+          <svg
+            aria-label="close"
+            className="grommetux-control-icon grommetux-control-icon-close grommetux-notification__close grommetux-control-icon--responsive"
+            height="24px"
+            role="img"
+            version="1.1"
+            viewBox="0 0 24 24"
+            width="24px">
+            <path
+              d="M3,3 L21,21 M3,21 L21,3"
+              fill="none"
+              stroke="#000000"
+              strokeWidth="2" />
+          </svg>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Notification renders with closer set to true 1`] = `
+<div
+  className="grommetux-animate">
+  <div
+    className="grommetux-animate__child grommetux-animate__child--fade grommetux-animate__child--inactive "
+    style={
+      Object {
+        "transitionDuration": "1000ms",
+      }
+    }>
+    <div
+      className="grommetux-box grommetux-box--direction-row grommetux-box--align-start grommetux-box--pad-small grommetux-notification grommetux-notification--status-unknown grommetux-background-color-index-unknown grommetux-background-color-index--pending"
+      id={undefined}
+      onClick={undefined}
+      role={undefined}
+      style={Object {}}
+      tabIndex={undefined}>
+      <div
+        className="grommetux-box grommetux-box--direction-column grommetux-box--responsive grommetux-box--pad-small"
+        id={undefined}
+        onClick={undefined}
+        role={undefined}
+        style={Object {}}
+        tabIndex={undefined}>
+        <svg
+          aria-label="Unknown"
+          className="grommetux-status-icon grommetux-status-icon-unknown grommetux-notification__status"
+          role="img"
+          version="1.1"
+          viewBox="0 0 21 20">
+          <g
+            className="grommetux-status-icon__base">
+            <path
+              d="M10.497375,0.197446809 C4.976125,0.206382979 0.5018125,4.51574468 0.4248125,9.84851064 C0.3443125, 15.3765957 4.89475,19.6825532 10.262875,19.7978723 C15.913625,19.92 20.460125,15.5174468 20.5743125, 10.2153191 C20.692,4.74170213 16.156875,0.200851064 10.497375,0.197446809 L10.497375, 0.197446809 Z M10.374875,18.6093617 C5.558,18.5459574 1.5981875,14.6910638 1.6489375, 9.90553191 C1.6996875,5.18425532 5.6791875,1.38468085 10.50875,1.39191489 C15.39125, 1.39702128 19.348875,5.25829787 19.348875,10.0195745 C19.34625,14.7565957 15.3348125, 18.6731915 10.374875,18.6093617 L10.374875,18.6093617 Z"
+              id="Shape"
+              xmlns="http://www.w3.org/2000/svg" />
+          </g>
+          <g
+            className="grommetux-status-icon__detail">
+            <path
+              d="M10.4033125,7.72212766 C9.9658125,7.72085106 9.639, 8.00680851 9.639,8.39574468 C9.639,10.5910638 9.639,12.7880851 9.639875,14.9834043 C9.639875, 15.386383 9.944375,15.6587234 10.3919375,15.6604255 C10.8521875,15.6617021 11.15625,15.3897872 11.15625, 14.9761702 C11.157125,13.8804255 11.15625,12.786383 11.15625,11.6906383 C11.15625,10.5910638 11.157125, 9.49021277 11.15625,8.3893617 C11.1558125,8.00851064 10.8329375,7.72595745 10.4033125,7.72212766 L10.4033125, 7.72212766 Z"
+              id="Shape"
+              xmlns="http://www.w3.org/2000/svg" />
+            <path
+              d="M10.455375,4.88085106 C9.9019375,4.87744681 9.4679375, 5.28595745 9.4679375,5.80978723 C9.4679375,6.34765957 9.8870625,6.76255319 10.43175,6.76255319 C10.9781875, 6.76425532 11.4156875,6.34595745 11.4165625,5.82340426 C11.4165625,5.30851064 10.9834375,4.88297872 10.455375, 4.88085106 L10.455375,4.88085106 Z"
+              id="Shape"
+              xmlns="http://www.w3.org/2000/svg" />
+          </g>
+        </svg>
+      </div>
+      <div
+        className="grommetux-box grommetux-box--direction-column grommetux-box--responsive grommetux-box--flex grommetux-box--pad-vertical-small grommetux-box--pad-right-small"
+        id={undefined}
+        onClick={undefined}
+        role={undefined}
+        style={Object {}}
+        tabIndex={undefined}>
+        <span
+          className="grommetux-notification__message">
+          You will need a tray. The food is hot.
+        </span>
+      </div>
+      <button
+        aria-label="Close Notification"
+        className="grommetux-button grommetux-button--plain"
+        disabled={false}
+        href={undefined}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseDown={[Function]}
+        onMouseUp={[Function]}
+        style={Object {}}
+        type="button">
+        <span
+          className="grommetux-button__icon">
+          <svg
+            aria-label="close"
+            className="grommetux-control-icon grommetux-control-icon-close grommetux-notification__close grommetux-control-icon--responsive"
+            height="24px"
+            role="img"
+            version="1.1"
+            viewBox="0 0 24 24"
+            width="24px">
+            <path
+              d="M3,3 L21,21 M3,21 L21,3"
+              fill="none"
+              stroke="#000000"
+              strokeWidth="2" />
+          </svg>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Notification renders with padding set 1`] = `
+<div
+  className="grommetux-animate">
+  <div
+    className="grommetux-animate__child grommetux-animate__child--fade grommetux-animate__child--inactive "
+    style={
+      Object {
+        "transitionDuration": "1000ms",
+      }
+    }>
+    <div
+      className="grommetux-box grommetux-box--direction-row grommetux-box--align-start grommetux-box--pad-small grommetux-notification grommetux-notification--status-unknown grommetux-background-color-index-unknown grommetux-background-color-index--pending"
+      id={undefined}
+      onClick={undefined}
+      role={undefined}
+      style={Object {}}
+      tabIndex={undefined}>
+      <div
+        className="grommetux-box grommetux-box--direction-column grommetux-box--responsive grommetux-box--pad-small"
+        id={undefined}
+        onClick={undefined}
+        role={undefined}
+        style={Object {}}
+        tabIndex={undefined}>
+        <svg
+          aria-label="Unknown"
+          className="grommetux-status-icon grommetux-status-icon-unknown grommetux-notification__status"
+          role="img"
+          version="1.1"
+          viewBox="0 0 21 20">
+          <g
+            className="grommetux-status-icon__base">
+            <path
+              d="M10.497375,0.197446809 C4.976125,0.206382979 0.5018125,4.51574468 0.4248125,9.84851064 C0.3443125, 15.3765957 4.89475,19.6825532 10.262875,19.7978723 C15.913625,19.92 20.460125,15.5174468 20.5743125, 10.2153191 C20.692,4.74170213 16.156875,0.200851064 10.497375,0.197446809 L10.497375, 0.197446809 Z M10.374875,18.6093617 C5.558,18.5459574 1.5981875,14.6910638 1.6489375, 9.90553191 C1.6996875,5.18425532 5.6791875,1.38468085 10.50875,1.39191489 C15.39125, 1.39702128 19.348875,5.25829787 19.348875,10.0195745 C19.34625,14.7565957 15.3348125, 18.6731915 10.374875,18.6093617 L10.374875,18.6093617 Z"
+              id="Shape"
+              xmlns="http://www.w3.org/2000/svg" />
+          </g>
+          <g
+            className="grommetux-status-icon__detail">
+            <path
+              d="M10.4033125,7.72212766 C9.9658125,7.72085106 9.639, 8.00680851 9.639,8.39574468 C9.639,10.5910638 9.639,12.7880851 9.639875,14.9834043 C9.639875, 15.386383 9.944375,15.6587234 10.3919375,15.6604255 C10.8521875,15.6617021 11.15625,15.3897872 11.15625, 14.9761702 C11.157125,13.8804255 11.15625,12.786383 11.15625,11.6906383 C11.15625,10.5910638 11.157125, 9.49021277 11.15625,8.3893617 C11.1558125,8.00851064 10.8329375,7.72595745 10.4033125,7.72212766 L10.4033125, 7.72212766 Z"
+              id="Shape"
+              xmlns="http://www.w3.org/2000/svg" />
+            <path
+              d="M10.455375,4.88085106 C9.9019375,4.87744681 9.4679375, 5.28595745 9.4679375,5.80978723 C9.4679375,6.34765957 9.8870625,6.76255319 10.43175,6.76255319 C10.9781875, 6.76425532 11.4156875,6.34595745 11.4165625,5.82340426 C11.4165625,5.30851064 10.9834375,4.88297872 10.455375, 4.88085106 L10.455375,4.88085106 Z"
+              id="Shape"
+              xmlns="http://www.w3.org/2000/svg" />
+          </g>
+        </svg>
+      </div>
+      <div
+        className="grommetux-box grommetux-box--direction-column grommetux-box--responsive grommetux-box--flex grommetux-box--pad-vertical-small grommetux-box--pad-right-small"
+        id={undefined}
+        onClick={undefined}
+        role={undefined}
+        style={Object {}}
+        tabIndex={undefined}>
+        <span
+          className="grommetux-notification__message">
+          You will need a tray. The food is hot.
+        </span>
+      </div>
+      <button
+        aria-label="Close Notification"
+        className="grommetux-button grommetux-button--plain"
+        disabled={false}
+        href={undefined}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseDown={[Function]}
+        onMouseUp={[Function]}
+        style={Object {}}
+        type="button">
+        <span
+          className="grommetux-button__icon">
+          <svg
+            aria-label="close"
+            className="grommetux-control-icon grommetux-control-icon-close grommetux-notification__close grommetux-control-icon--responsive"
+            height="24px"
+            role="img"
+            version="1.1"
+            viewBox="0 0 24 24"
+            width="24px">
+            <path
+              d="M3,3 L21,21 M3,21 L21,3"
+              fill="none"
+              stroke="#000000"
+              strokeWidth="2" />
+          </svg>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Notification renders with status option given 1`] = `
+<div
+  className="grommetux-animate">
+  <div
+    className="grommetux-animate__child grommetux-animate__child--fade grommetux-animate__child--inactive "
+    style={
+      Object {
+        "transitionDuration": "1000ms",
+      }
+    }>
+    <div
+      className="grommetux-box grommetux-box--direction-row grommetux-box--align-start grommetux-box--pad-small grommetux-notification grommetux-notification--status-warning grommetux-background-color-index-warning grommetux-background-color-index--pending"
+      id={undefined}
+      onClick={undefined}
+      role={undefined}
+      style={Object {}}
+      tabIndex={undefined}>
+      <div
+        className="grommetux-box grommetux-box--direction-column grommetux-box--responsive grommetux-box--pad-small"
+        id={undefined}
+        onClick={undefined}
+        role={undefined}
+        style={Object {}}
+        tabIndex={undefined}>
+        <svg
+          aria-label="Warning"
+          className="grommetux-status-icon grommetux-status-icon-warning grommetux-notification__status"
+          role="img"
+          version="1.1"
+          viewBox="0 0 24 24">
+          <g
+            className="grommetux-status-icon__base">
+            <path
+              d="M12,0 L0,22 L24,22 L12,0 L12,0 Z"
+              role="presentation"
+              stroke="none" />
+          </g>
+          <g
+            className="grommetux-status-icon__detail"
+            strokeWidth="2"
+            transform="translate(11.000000, 8.000000)">
+            <path
+              d="M1,0 L1,6"
+              fill="none"
+              role="presentation" />
+            <path
+              d="M1,8 L1,10"
+              fill="none"
+              role="presentation" />
+          </g>
+        </svg>
+      </div>
+      <div
+        className="grommetux-box grommetux-box--direction-column grommetux-box--responsive grommetux-box--flex grommetux-box--pad-vertical-small grommetux-box--pad-right-small"
+        id={undefined}
+        onClick={undefined}
+        role={undefined}
+        style={Object {}}
+        tabIndex={undefined}>
+        <span
+          className="grommetux-notification__message">
+          You will need a tray. The food is hot.
+        </span>
+      </div>
+      <button
+        aria-label="Close Notification"
+        className="grommetux-button grommetux-button--plain"
+        disabled={false}
+        href={undefined}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseDown={[Function]}
+        onMouseUp={[Function]}
+        style={Object {}}
+        type="button">
+        <span
+          className="grommetux-button__icon">
+          <svg
+            aria-label="close"
+            className="grommetux-control-icon grommetux-control-icon-close grommetux-notification__close grommetux-control-icon--responsive"
+            height="24px"
+            role="img"
+            version="1.1"
+            viewBox="0 0 24 24"
+            width="24px">
+            <path
+              d="M3,3 L21,21 M3,21 L21,3"
+              fill="none"
+              stroke="#000000"
+              strokeWidth="2" />
+          </svg>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;

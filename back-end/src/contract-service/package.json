@@ -1,0 +1,23 @@
+{
+  "name": "contract-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Duy An",
+  "license": "ISC",
+  "dependencies": {
+    "hemera-joi": "^1.2.1",
+    "hemera-mongo-store": "^1.1.1",
+    "hemera-plugin": "0.0.7",
+    "hemera-redis-cache": "^1.1.1",
+    "hemera-stats": "^1.0.23",
+    "hemera-zipkin": "^1.1.1",
+    "jsonwebtoken": "^8.0.0",
+    "khong-dau": "^2.0.0",
+    "mongodb-extended-json": "^1.10.0",
+    "nats": "^0.7.20",
+    "nats-hemera": "^1.5.9",
+    "raven": "^2.1.2",
+    "web3": "^1.0.0-beta.26"
+  }
+}

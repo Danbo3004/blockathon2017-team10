@@ -1,0 +1,20 @@
+.#{$grommet-namespace}control-icon {
+  &--tiny {
+    width: round($inuit-base-spacing-unit / 2);
+    height: round($inuit-base-spacing-unit / 2);
+  }
+
+  &:not([class*="color-index-plain"]) {
+    *:not([stroke]) {
+      stroke: $icon-color;
+    }
+  }
+
+  &--no-fill {
+    fill: none;
+  }
+
+  &--no-stroke {
+    stroke: none;
+  }
+}

@@ -1,0 +1,68 @@
+.#{$grommet-namespace}control-emoji {
+  position: relative;
+  padding-bottom: 20px;
+  &::after {
+    content: '';
+    height: 10px;
+    width: 0;
+    display: block;
+    border-left: 1px solid #ebebeb;
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+  }
+  &.EmojiReallyBad-active{
+    &::after {
+      border-left-color: #f35814;
+    }
+  }
+  &.EmojiBad-active{
+    &::after {
+      border-left-color: #f5a623;
+    }
+  }
+  &.EmojiNormal-active{
+    &::after {
+      border-left-color: #c8d82a;
+    }
+  }
+  &.EmojiGood-active{
+    &::after {
+      border-left-color: #70c50c;
+    }
+  }
+  &.EmojiGreat-active{
+    &::after {
+      border-left-color: #40c41b;
+    }
+  }
+}
+.#{$grommet-namespace}review-box {
+  border: solid 1px #e9e6e6;
+  border-radius: 4px;
+  .Emoji__header {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: center;
+    color: #151515;
+    padding-top: 24px;
+  }
+  .Emoji__label {
+      font-size: 14px;
+      font-weight: 300;
+      text-align: center;
+  }
+  .confirm__box {
+    font-size: 13px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .review-cell {
+    width: 100px
+  }
+}
+
+
+
+    

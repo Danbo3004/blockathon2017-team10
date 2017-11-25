@@ -1,0 +1,33 @@
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.#{$grommet-namespace}loading {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  border: .25rem solid rgba(0, 109, 164, .5);
+  border-top-color: #E77A3B;
+  animation: spin 1s infinite linear;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  &--small {
+    width: 14px;
+    height: 14px;
+    border-width: 0.15rem;
+  }
+
+  &--large {
+    width: 48px;
+    height: 48px;
+  }
+}

@@ -1,0 +1,21 @@
+.#{$grommet-namespace}simple-user-item {
+  > * {
+    vertical-align: middle;
+  }
+
+  &__avatar {
+    position: relative;
+    margin-right: 12px;
+
+    > img {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  &__name {
+    line-height: 22px;
+    font-size: 13px;
+  }
+}

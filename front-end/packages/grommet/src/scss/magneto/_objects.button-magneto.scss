@@ -1,0 +1,117 @@
+.#{$grommet-namespace}button {
+  font-size: 1rem;
+  line-height: 1.214em;
+  padding-top: 14px;
+  padding-bottom: 14px;
+
+  .#{$grommet-namespace}button__icon {
+    display: inline-block;
+
+    .#{$grommet-namespace}control-icon {
+      vertical-align: middle;
+    }
+  }
+
+  &--no-min-width {
+    min-width: 0;
+  }
+
+  &--small {
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+
+  .#{$grommet-namespace}control-icon {
+    &-three-dots {
+      #{$dark-background-context} {
+        fill: $colored-icon-color !important;
+      }
+
+      #{$light-background-context} {
+        fill: $icon-color !important;
+      }
+    }
+    //== ---------------- Magneto Cheat ----------------
+    @for $i from 1 through length($brand-light-colors) {
+      &.#{$grommet-namespace}color-index-light-#{$i},
+      &.#{$grommet-namespace}color-index-light-#{$i
+        + length($brand-light-colors)} {
+        &.#{$grommet-namespace}control-icon-three-dots {
+          fill: nth($brand-light-colors, $i);
+        }
+      }
+    }
+    //== ----------------- END ----------------------------
+  }
+
+  &:hover {
+    .#{$grommet-namespace}control-icon {
+      &-three-dots {
+        fill: $active-icon-color !important;
+      }
+      &-carret-right {
+        fill: $active-icon-color !important;
+      }
+    }
+  }
+
+  &--magneto {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    min-width: 140px;
+
+    &.#{$grommet-namespace}button--small {
+      font-size: 13px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      min-width: 93px;
+      &--no-min-width {
+        min-width: 0;
+      }
+
+      .#{$grommet-namespace}button__icon {
+        .#{$grommet-namespace}control-icon--small {
+          @include size(12px);
+          // adjust margin so it aligns with text better
+          margin-top: quarter($inuit-base-spacing-unit);
+          margin-bottom: quarter($inuit-base-spacing-unit);
+
+          .#{$grommet-namespace}status-icon__detail {
+            display: none;
+          }
+        }
+      }
+    }
+
+    &.#{$grommet-namespace}button--tiny {
+      min-height: 26px;
+      font-size: 12px;
+      padding: 1px 5px;
+      min-width: 62px;
+      &--no-min-width {
+        min-width: 0;
+      }
+
+      .#{$grommet-namespace}button__icon {
+        padding: 1px 12px;
+        @include size(20px);
+      }
+    }
+  }
+
+  &--loading {
+    .#{$grommet-namespace}button__icon {
+      display: inline-flex;
+    }
+  }
+
+  &:hover {
+    .#{$grommet-namespace}control-icon {
+      fill: none;
+    }
+  }
+
+  &--bold {
+    font-weight: 600;
+  }
+}

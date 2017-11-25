@@ -1,0 +1,35 @@
+.#{$grommet-namespace}popup {
+  & > .grommetux-layer__container {
+    padding: 0 37px;
+
+    // .#{$grommet-namespace}box {
+    //   > div {
+    //     flex-shrink: 0;
+    //   }
+    // }
+
+    .#{$grommet-namespace}popup__title-wrapper {
+      height: 100%;
+      display: block;
+
+      .#{$grommet-namespace}popup__title {
+        font-size: 36px;
+        font-weight: $text-font-weight;
+        line-height: normal;
+      }
+
+      .#{$grommet-namespace}popup__sub-title {
+        line-height: 1.57;
+        font-size: 14px;
+        margin: 0px;
+        opacity: .6;
+      }
+    }
+  }
+}
+
+.#{$grommet-namespace}popup--size-fit {
+  & > .grommetux-layer__container {
+    width: 600px;
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "upload-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Honeycomb @ GEEK Up",
+  "license": "ISC",
+  "dependencies": {
+    "hemera-joi": "^1.2.1",
+    "hemera-plugin": "0.0.7",
+    "minio": "^3.2.1",
+    "nats": "^0.7.20",
+    "nats-hemera": "^1.5.9",
+    "raven": "^2.1.2"
+  }
+}

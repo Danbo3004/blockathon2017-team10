@@ -1,0 +1,30 @@
+.#{$grommet-namespace}month-picker {
+  margin: 0;
+  font-size: $base-font-size;
+
+  div.#{$grommet-namespace}month-picker__wrapper {
+    margin-bottom: 0;
+    height: 20px;
+    line-height: 1.36;
+
+    button {
+      line-height: 17px;
+      cursor: pointer;
+
+      .grommetux-button__icon {
+        padding: 0;
+      }
+    }
+
+    input {
+      border: none;
+      padding: 0;
+      line-height: 1.36;
+      width: calc(100% - 20px);
+
+      &:focus {
+        padding: 0;
+      }
+    }
+  }
+}

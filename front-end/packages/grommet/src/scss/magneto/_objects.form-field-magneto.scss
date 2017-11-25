@@ -1,0 +1,143 @@
+.#{$grommet-namespace}form-field {
+  border-radius: $border-radius;
+  padding: 5px 11px 6px;
+
+  &--no-label {
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+
+  &--border-none,
+  &--border-in {
+    border: none;
+  }
+
+  &--border-in {
+    padding: 9px 0;
+
+    .#{$grommet-namespace}form-field__contents {
+      padding: 9px 15px;
+      border-radius: $border-radius;
+      // border: solid 1px #ededed;
+    }
+  }
+
+  &--padding-none {
+    padding: 0;
+  }
+
+  &__mask {
+    display: none;
+  }
+
+  &.#{$grommet-namespace}form-field--disabled {
+    .#{$grommet-namespace}form-field__mask {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+
+    .#{$grommet-namespace}form-field__label {
+      color: #ddd;
+    }
+
+    .#{$grommet-namespace}form-field__contents {
+      opacity: 0.3;
+    }
+  }
+
+  .#{$grommet-namespace}form-field__label {
+    font-size: $content-small-font-size;
+    text-transform: uppercase;
+    font-weight: $text-strong-font-weight;
+    color: $label-text-color;
+    line-height: 1.27;
+    margin-bottom: 2px;
+  }
+
+  .#{$grommet-namespace}form-field__contents {
+    margin-left: 0;
+    margin-right: 0;
+    overflow: hidden;
+
+    textarea {
+      padding: 0;
+    }
+
+    .ReactTags__tagInput {
+      width: auto;
+      height: auto;
+    }
+
+    .#{$grommet-namespace}text-input,
+    .ReactTags__tagInputField,
+    .ReactTags__tagInputField:focus {
+      padding: 0;
+      margin: 0;
+      height: auto;
+      font-size: $base-font-size;
+    }
+
+    .#{$grommet-namespace}text-input[type='number'],
+    .#{$grommet-namespace}text-input[type='number']:focus,
+    .#{$grommet-namespace}text-input[type='text'],
+    .#{$grommet-namespace}text-input[type='text']:focus,
+    .#{$grommet-namespace}text-input[type='password'],
+    .#{$grommet-namespace}text-input[type='password']:focus {
+      padding: 0;
+      margin: 0;
+      height: auto;
+      font-size: $base-font-size;
+    }
+
+    .#{$grommet-namespace}text-input {
+      line-height: 18px;
+      font-size: $base-font-size;
+    }
+
+    .#{$grommet-namespace}select {
+      .#{$grommet-namespace}select__input {
+        padding: 0;
+        line-height: 18px;
+        font-size: $base-font-size;
+        height: auto;
+      }
+
+      .#{$grommet-namespace}select__control {
+        .#{$grommet-namespace}button__icon {
+          padding-right: 0;
+          color: #454545;
+          padding: 0;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  &--error {
+    border-color: #f17373;
+
+    .#{$grommet-namespace}form-field__error {
+      color: #f17373;
+      font-size: 12px;
+      line-height: 1.33;
+
+      .#{$grommet-namespace}control-icon {
+        fill: #f17373;
+        stroke: #f17373;
+        opacity: 1;
+      }
+    }
+  }
+
+  &__error-popover {
+    .grommetux-form-field__error {
+      float: none;
+      line-height: 1em;
+      color: white;
+    }
+  }
+}

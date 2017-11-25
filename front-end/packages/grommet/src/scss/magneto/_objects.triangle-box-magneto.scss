@@ -1,0 +1,86 @@
+.#{$grommet-namespace}triangle-box {
+
+  //----------------------- Local Var ---------------*/
+  $triangle-size: 20px;
+  $triangle-shadow-size: 2px;
+  $directions: ('up', 'right', 'down', 'left');
+  $directions-map: (
+    up: (position: 'top', direction: 'left'),
+    right: (position: 'right', direction: 'top'),
+    down: (position: 'bottom', direction: 'left'),
+    left: (position: 'left', direction: 'top')
+  );
+  $border-size: 266px;
+  $border-size-vertical: 65%;
+  $text-align: (center, left, right, justify);
+  //-------------------------------------------------*/
+
+  position: relative;
+  width: 100%;
+  @each $align, $idx in $text-align {
+    &--#{$align} {
+      text-align: $align;
+    }
+  }
+
+  .#{$grommet-namespace}triangle-box-border {
+    position: absolute;
+    display: block;
+  }
+
+  &--up, &--down {
+    .#{$grommet-namespace}triangle-box-border {
+      height: 0;
+      width: $border-size;
+      border-top: 1px solid $border-color;
+    }
+  }
+
+  &--left, &--right {
+    .#{$grommet-namespace}triangle-box-border {
+      width: 0;
+      height: $border-size-vertical;
+      border-left: 1px solid $border-color;
+    }
+  }
+
+  &:after, &:before {
+    content: '';
+    position: absolute;
+    display: block;
+  }
+
+  @each $direction, $index in $directions {
+    $map: map-get($directions-map, $direction);
+    $position: map-get($map, position); // top|right|bottom|left
+    $direct: map-get($map, direction); // left|top
+
+    &--#{$direction} {
+
+      margin-#{$position}: $triangle-size/2;
+
+      &:after {
+        #{$position}: - ($triangle-size - $triangle-shadow-size/2);
+        #{$direct}: calc(50% - #{$triangle-size/2});
+        @include triangle($triangle-size, $background-color, $direction);
+      }
+
+      &:before {
+        #{$position}: - ($triangle-size + $triangle-shadow-size/2);
+        #{$direct}: calc(50% - #{$triangle-size/2 + $triangle-shadow-size/2});
+        @include triangle(($triangle-size + $triangle-shadow-size), $border-color, $direction);
+      }
+
+      .#{$grommet-namespace}triangle-box-border {
+        #{$position}: 0;
+        margin-#{$position}: - $triangle-size/2;
+        #{$direct}: 50%;
+        @if $direct == 'top' {
+          @include vp-transform(translateY(-50%));
+        } @else {
+          @include vp-transform(translateX(-50%));
+        }
+      }
+    }
+  }
+}

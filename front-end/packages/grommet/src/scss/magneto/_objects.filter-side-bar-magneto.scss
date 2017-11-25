@@ -1,0 +1,57 @@
+.#{$grommet-namespace}filter-side-bar {
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 300;
+
+  .#{$grommet-namespace}title {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.33;
+    color: #b0b0b0;
+    text-transform: uppercase;
+    margin: 22px 0 8px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .#{$grommet-namespace}control-icon {
+    @include size(13px);
+  }
+
+  .#{$grommet-namespace}autosuggest-input {
+    padding-right: 30px;
+    padding-left: 30px;
+
+    &:focus {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }
+  //==----- Force height to 35px ----------
+  .#{$grommet-namespace}input {
+    &, &:focus {
+      padding-top: 6.5px;
+      padding-bottom: 6.5px;
+    }
+  }
+  .#{$grommet-namespace}text-input {
+    &, &:focus {
+      padding-top: 7px;
+      padding-bottom: 7px;
+    }
+  }
+
+  .#{$grommet-namespace}search--small {
+    .#{$grommet-namespace}search__input {
+      line-height: 1rem;
+
+      &, &:focus {
+        padding-top: 8.5px;
+        padding-bottom: 8.5px;
+      }
+    }
+  }
+  //==----- END ----------
+}

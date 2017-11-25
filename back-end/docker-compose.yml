@@ -1,0 +1,157 @@
+version: "2"
+
+services:
+
+  microservices:
+    build:
+      context: "./src"
+    volumes:
+      - ./src:/app
+    links:
+      - nats
+      - zipkin
+      - redis
+      - mongo
+      - mailhog
+    depends_on:
+      - nats
+      - redis
+    labels:
+      - "traefik.backend=api"
+      - "traefik.frontend.rule=PathPrefixStrip: /api/"
+      - "traefik.port=8789"
+      - "traefik.frontend.entryPoints=http"
+    ports:
+      - '8789:8789'
+      - '7890:7890'
+    environment:
+      NODE_ENV: development
+      REDIS_PORT: 6379
+      REDIS_URL: redis
+      MONGO_URL: 'mongodb://mongo:27017/honeycomb'
+      NATS_URL: nats://nats:4222
+      NATS_USER: ruser
+      NATS_PW: T0pS3cr3t
+      ZIPKIN_URL: zipkin
+      ZIPKIN_PORT: 9411
+      API_PORT: 8789
+      API_HOST: 0.0.0.0
+      HEMERA_LOG_LEVEL: info
+      SMTP_PORT: 1025
+      HTTP_PORT: 8025
+      RAVEN_URL: https://68f72bc42af44298ae9d09d17b067db3:80676276d3294d14bea11224c8e43303@sentry.io/193128
+      MINION_BUCKET: honeycomb-prod
+      MINIO_ENDPOINT: s3.amazonaws.com
+      MINIO_ACCESS_KEY: AKIAI6OIPCFYSTTDO2FQ
+      MINIO_SECRET_KEY: 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
+      MAILJET_PUBLIC_KEY: 6089656a6cb0ef5ce8d7cdc30b5bc518
+      MAILJET_SECRET_KEY: aff0453c49a180b4b9715c19a2bb022d
+      IMG_HOST: https://s3-us-west-1.amazonaws.com/honeycomb-prod
+
+  frontend:
+    image: nginx
+    labels:
+      - "traefik.backend=frontend"
+      - "traefik.frontend.rule=PathPrefix: /"
+      - "traefik.port=9600"
+      - "traefik.frontend.entryPoints=http"
+    volumes:
+      - ./frontend/nginx.conf:/etc/nginx/conf.d/honeycomb.conf:ro
+      - ./frontend/dist:/var/www
+    ports:
+      - "9600:9600"
+
+  agendash:
+    image: lgatica/docker-agendash
+    ports:
+      - "3100:3000"
+    links:
+      - mongo
+    environment:
+      MONGODB_URI: mongodb://mongo:27017/honeycomb
+
+  nats:
+    build:
+      context: "./nats"
+    expose:
+      - "4222"
+    ports:
+      - "4222:4222"
+      - "8222:8222"
+    hostname: nats-server
+
+  natsboard:
+    build:
+      context: "./natsboard"
+    depends_on:
+      - nats
+    links:
+      - nats
+    ports:
+      - "3002:3000"
+      - "3001:3001"
+
+  zipkin-storage:
+    image: openzipkin/zipkin-mysql
+    container_name: mysql
+
+  zipkin:
+    image: openzipkin/zipkin
+    container_name: zipkin
+    expose:
+      - "9411"
+    ports:
+      # Listen port for the Scribe transport
+      - 9410:9410
+      # Port used for the Zipkin UI and HTTP Api
+      - 9411:9411
+    environment:
+      - STORAGE_TYPE=mysql
+      - MYSQL_HOST=mysql
+    depends_on:
+      - zipkin-storage
+
+  zipkin-dependencies:
+    image: openzipkin/zipkin-dependencies
+    container_name: zipkin-dependencies
+    entrypoint: crond -f
+    environment:
+      - STORAGE_TYPE=mysql
+      - MYSQL_HOST=mysql
+      # Add the baked-in username and password for the zipkin-mysql image
+      - MYSQL_USER=zipkin
+      - MYSQL_PASS=zipkin
+      # Uncomment to adjust memory used by the dependencies job
+      # - JAVA_OPTS=-verbose:gc -Xms1G -Xmx1G
+    depends_on:
+      - zipkin-storage
+
+  traefik:
+    image: traefik
+    command: --web --docker --docker.domain=docker.localhost --logLevel=DEBUG
+    ports:
+      - "8182:80"
+      - "8181:8080"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /dev/null:/traefik.toml
+
+  redis:
+    image: redis:alpine
+    expose:
+      - "6379"
+    ports:
+      - "6379:6379"
+  
+  mongo:
+    image: mongo
+    volumes:
+      - ./stacks/mongo/.db:/data/db
+    ports:
+      - "17017:27017"
+
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - "1025:1025"
+      - "8025:8025"

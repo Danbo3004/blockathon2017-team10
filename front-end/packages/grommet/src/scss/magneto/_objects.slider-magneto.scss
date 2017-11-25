@@ -1,0 +1,242 @@
+$prefixClass: 'rc-slider';
+
+$disabledColor: $disabled-icon-color;
+$border-radius-base: $border-radius;
+$primary-color: $brand-color;
+
+$rail-height: 20px;
+$handle-button-size: 20px;
+
+.#{$grommet-namespace}slider {
+
+  .slider-label {
+    margin-bottom: 15px;
+    
+    .slider-label {
+      &-from, &-to, &-separate {
+        font-size: $base-font-size;
+        font-weight: 300;
+        font-style: normal;
+        margin: 0;
+
+        @include media-query(palm) {
+        }
+      }
+
+      &-separate {
+        font-size: 12px;
+        position: relative;
+
+        &:after, &:before {
+          content: '';
+          height: 0;
+          width: 60px;
+          position: absolute;
+          display: block;
+          top: 50%;
+          border-top: solid 1px #cecece;
+        }
+
+        &:before {
+          left: -75px;
+        }
+
+        &:after {
+          right: -75px;
+        }
+      }
+
+      &-from, &-to {
+        padding: 2px 8px;
+        width: auto;
+        margin: 0;
+        border: 1px solid $border-color;
+        @include border-left-radius($border-radius-base);
+        @include border-right-radius($border-radius-base);
+      }
+
+      &-from {
+        margin-right: 85px; 
+      }
+
+      &-to {
+        margin-left: 85px;
+      }
+    }
+  }
+
+  .#{$prefixClass} {
+    position: relative;
+    height: $rail-height + 10px;
+    padding: 5px 0;
+    width: 100%;
+    border-radius: 50%;
+
+    &-rail {
+      position: absolute;
+      width: 100%;
+      background-color: #f0f0f0;
+      height: $rail-height;
+
+      @include border-left-radius(10px);
+      @include border-right-radius(10px);
+
+      $shadow: inset 0 2px 3px 0 rgba(203, 203, 203, 0.5);
+      -webkit-box-shadow: $shadow;
+      -moz-box-shadow: $shadow;
+      box-shadow: $shadow;
+    }
+
+    &-track {
+      position: absolute;
+      left: 0;
+      height: $rail-height;
+      border-radius: $border-radius-base;
+      background-color: $primary-color;
+
+      @include border-left-radius(10px);
+      @include border-right-radius(10px);
+
+      $shadow: inset 0 1px 3px 0 rgba(188, 188, 188, 0.5);
+      -webkit-box-shadow: $shadow;
+      -moz-box-shadow: $shadow;
+      box-shadow: $shadow;
+    }
+
+    &-handle {
+      position: absolute;
+      @include size($handle-button-size);
+      cursor: pointer;
+      border-radius: 50%;
+      border: solid 4px #fff;
+      background-color: $brand-color;
+
+      &-2 {
+        margin-left: - $handle-button-size;
+      }
+
+      &:hover {
+      }
+      &-active {
+        &:active {
+          border-color: tint($primary-color, 20%);
+          box-shadow: 0 0 5px tint($primary-color, 20%);
+        }
+      }
+    }
+
+    &-mark {
+      position: absolute;
+      top: 18px;
+      left: 0;
+      width: 100%;
+      font-size: 12px;
+    }
+
+    &-mark-text {
+      position: absolute;
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+      cursor: pointer;
+      color: #999;
+
+      &-active {
+        color: #666;
+      }
+    }
+
+    &-step {
+      position: absolute;
+      width: 100%;
+      height: 4px;
+      background: transparent;
+    }
+
+    &-dot {
+      position: absolute;
+      bottom: -2px;
+      margin-left: -4px;
+      width: 8px;
+      height: 8px;
+      border: 2px solid #e9e9e9;
+      background-color: #fff;
+      cursor: pointer;
+      border-radius: 50%;
+      vertical-align: middle;
+      &:first-child {
+        margin-left: -4px;
+      }
+      &:last-child {
+        margin-left: -4px;
+      }
+      &-active {
+        border-color: tint($primary-color, 50%);
+      }
+    }
+
+    &-disabled {
+      background-color: #e9e9e9;
+
+      .#{$prefixClass}-track {
+        background-color: $disabledColor;
+      }
+
+      .#{$prefixClass}-handle, .#{$prefixClass}-dot {
+        border-color: $disabledColor;
+        background-color: #fff;
+        cursor: not-allowed;
+      }
+
+      .#{$prefixClass}-mark-text, .#{$prefixClass}-dot {
+        cursor: not-allowed !important;
+      }
+    }
+  }
+
+  .#{$prefixClass}-vertical {
+    width: 14px;
+    height: 100%;
+    padding: 0 5px;
+
+    .#{$prefixClass} {
+      &-rail {
+        height: 100%;
+        width: 4px;
+      }
+
+      &-track {
+        left: 5px;
+        bottom: 0;
+        width: 4px;
+      }
+
+      &-handle {
+        margin-left: -5px;
+        margin-bottom: -7px;
+      }
+
+      &-mark {
+        top: 0;
+        left: 18px;
+        height: 100%;
+      }
+
+      &-step {
+        height: 100%;
+        width: 4px;
+      }
+
+      &-dot {
+        left: 2px;
+        margin-bottom: -4px;
+        &:first-child {
+          margin-bottom: -4px;
+        }
+        &:last-child {
+          margin-bottom: -4px;
+        }
+      }
+    }
+  }
+}

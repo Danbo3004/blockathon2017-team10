@@ -1,0 +1,54 @@
+.#{$grommet-namespace}anchor {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &--bold {
+    font-weight: 600;
+  }
+}
+
+.#{$grommet-namespace}anchor--primary,
+.#{$grommet-namespace}anchor--icon-label {
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 16px;
+
+  .#{$grommet-namespace}control-icon {
+    @include size(16px);
+    margin-right: 6px;
+    top: -1px;
+    position: relative;
+  }
+}
+
+.#{$grommet-namespace}anchor--icon-label:not(.#{$grommet-namespace}anchor--primary) {
+  color: $link-color;
+
+  &:visited {
+    color: $link-color;
+  }
+
+  .#{$grommet-namespace}control-icon {
+    @include icon-color($link-color);
+  }
+
+  &:hover:not(.#{$grommet-namespace}anchor--disabled) {
+    color: darken($link-color, 5%);
+    //color: darken($link-hover-color);
+
+    .#{$grommet-namespace}control-icon {
+      @include icon-color(darken($link-color, 5%));
+      //@include icon-color($link-hover-color);
+    }
+  }
+}
+
+.#{$grommet-namespace}anchor--primary {
+  &:visited {
+    color: $control-brand-color;
+  }
+}

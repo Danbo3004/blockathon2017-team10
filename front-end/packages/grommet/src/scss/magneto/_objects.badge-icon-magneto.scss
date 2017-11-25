@@ -1,0 +1,22 @@
+.#{$grommet-namespace}badge-icon {
+  position: relative;
+  display: inline-block;
+  padding-top: 7px;
+  padding-right: 9px;
+
+  &__value {
+    background: $brand-color;
+    color: white;
+    display: inline-block;
+    font-size: $content-small-font-size;
+    font-weight: $text-bold-font-weight;
+    border-radius: 10px;
+    height: 15px;
+    width: 18px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 1.4;
+  }
+}

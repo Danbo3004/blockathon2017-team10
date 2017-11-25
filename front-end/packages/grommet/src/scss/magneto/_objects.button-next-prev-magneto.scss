@@ -1,0 +1,17 @@
+.#{$grommet-namespace}button-next-prev {
+  .#{$grommet-namespace}box {
+    width: 82px;
+  }
+
+  .#{$grommet-namespace}button {
+    padding: 2px 13px;
+    border: 1px solid nth($brand-accent-colors, 1);
+    min-width: 0;
+    @include border-top-radius(0);
+    @include border-bottom-radius(0);
+
+    .#{$grommet-namespace}button__icon {
+      padding: 0;
+    }
+  }
+}

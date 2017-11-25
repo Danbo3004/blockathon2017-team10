@@ -1,0 +1,137 @@
+.#{$grommet-namespace}react-burger-menu {
+  //----------------------- Local Var ---------------*/
+  $bg: $layer-background-color;
+  $base-font-size: 16px;
+  $color: $text-color;
+  $active-color: $brand-color;
+  //-------------------------------------------------*/
+
+  font-size: $base-font-size;
+  font-weight: 300;
+
+  .burger-button {
+    padding: 17.5px 15px;
+  }
+
+  .bm-cross-button {
+    height: 0;
+    width: 0;
+    display: none;
+  }
+
+  .bm-menu-wrap {
+    width: 100% !important;
+    background-color: $bg;
+  }
+
+  .bm-overlay {
+    background-color: $bg !important;
+    border: 1px solid #e8e8e8;
+    border-top: 0;
+  }
+
+  .bm-item-list {
+    .profile {
+      display: flex !important;
+      border-bottom: 1px solid #e8e8e8;
+      padding: 0 15px 15px;
+
+      .grommetux-react-burger-menu__info {
+        width: 100%;
+        padding-left: 11px;
+      }
+
+      .profile--name {
+        font-weight: normal;
+        font-size: 16px;
+      }
+
+      .profile--balance-info {
+        font-size: 14px;
+        font-weight: normal;
+        color: #b0b0b0;
+
+        .profile--balance-label {
+          margin-right: 5px;
+        }
+        .profile--balance-value {
+          color: #3b3b3b
+        }
+      }
+    }
+
+    .recruiter-profile {
+      display: flex !important;
+      padding-bottom: 24px;
+      padding-top: 15px;
+
+      .#{$grommet-namespace}nav-profile {
+        width: 40px;
+        padding: 5px 15px;
+        border-bottom: none;
+      }
+    }
+
+    .#{$grommet-namespace}nav-profile {
+      padding: 20px 15px;
+      border-bottom: solid 1px #f1f1f1;
+      .#{$grommet-namespace}nav-profile__info {
+        width: 100%;
+        justify-content: flex-start;
+      }
+    }
+
+    > a {
+      color: $color;
+      padding: 15px;
+      font-weight: 300;
+      &.active {
+        color: $active-color;
+        font-weight: normal;
+      }
+    }
+  }
+
+}
+
+.dropdown-change-company {
+  margin: 0;
+
+  .login-another {
+    background-color: #f3f3f3;
+    color: #808080;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    padding: 7px 15px;
+    white-space: nowrap;
+    border: 0;
+    @include border-top-radius(4px);
+  }
+
+  .company-list {
+    max-height: 200px;
+    overflow: auto;
+    .company-item {
+      padding: 12px 15px;
+      flex-shrink: 0;
+      &:first-child {
+        padding-top: 0;
+      }
+
+      &:not(:last-child) {
+        border-bottom: solid 1px #f1f1f1;
+      }
+
+      .company-name {
+        margin: 0 15px;
+        text-decoration: none;
+        vertical-align: middle;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.71;
+        color: #323232;
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.#{$grommet-namespace}upload-avatar {
+  > div:not(.#{$grommet-namespace}upload-avatar--empty) {
+    border: none !important;
+    width: auto !important;
+    height: auto !important;
+    display: flex !important;
+    justify-content: center;
+  }
+
+  .sb-avatar {
+    border: solid 1px #eeeeee;
+    overflow: hidden;
+
+    img {
+      object-fit: contain;
+    }
+  }
+
+  &--empty {
+    border: dashed 2px #bec0c2;
+    color: #c7c7c7;
+    font-size: 13px;
+    line-height: 1.31;
+    text-align: center;
+    position: relative;
+
+    &:before {
+      content: '+';
+      font-weight: 700;
+      font-size: 20px;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: #d5d5d5;
+      color: #646464;
+      border: 2px solid #fff;
+      line-height: 20px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+
+  &--full {
+    > div:last-of-type {
+      border: none !important;
+      height: auto !important;
+      margin-top: 10px;
+      font-size: 12px;
+      line-height: 1.33;
+      color: #00acd0;
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+}

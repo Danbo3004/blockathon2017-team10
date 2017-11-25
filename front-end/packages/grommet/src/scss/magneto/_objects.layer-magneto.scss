@@ -1,0 +1,32 @@
+.#{$grommet-namespace}layer {
+  .#{$grommet-namespace}layer__container {
+    min-height: 100px;
+    overflow: visible;
+    padding: 0;
+  }
+
+  &__closer {
+    transform: translate(50%, -50%);
+
+    .grommetux-button {
+      padding: 0;
+
+      &__icon {
+        padding: 0;
+        width: 36px;
+        height: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #bbbdbf;
+        border-radius: 100%;
+        border: 3px solid #a9a5a5;
+
+        i {
+          font-size: 22px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,168 @@
+$select-size: (
+  small: ($inuit-base-spacing-unit - $control-font-size) * 2,
+  medium: $inuit-base-spacing-unit,
+  large: $inuit-base-spacing-unit--large
+);
+
+.#{$grommet-namespace}select {
+  @each $size-name, $size in $select-size {
+    &--#{$size-name} .#{$grommet-namespace}input {
+      &,
+      &:focus {
+        padding: (halve($size) - $input-border-width)
+          (
+            $size - $input-border-width
+          );
+      }
+    }
+  }
+
+  &__drop--accordion {
+    min-width: 250px;
+  }
+
+  &__drop--oneline {
+    .#{$grommet-namespace}select__options {
+      display: inline-block;
+      min-width: calc(100% - 15px);
+    }
+  }
+
+  .#{$grommet-namespace}input.#{$grommet-namespace}select__input {
+    height: auto;
+    width: calc(100% - 2px);
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: $text-font-weight;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+  }
+
+  .#{$grommet-namespace}select__control {
+    .#{$grommet-namespace}button__icon {
+      i {
+        color: $caret-down-color;
+      }
+    }
+  }
+
+  &--loading {
+    .#{$grommet-namespace}loading {
+      position: absolute;
+      top: 2px;
+      right: 25px;
+    }
+  }
+}
+
+.#{$grommet-namespace}select__drop {
+  .#{$grommet-namespace}select__radio-bar {
+    flex-direction: row;
+    box-shadow: none;
+    outline: none;
+  }
+
+  .grommetux-accordion {
+    & > div {
+      + div {
+        border-top: 1px solid #ededed;
+      }
+    }
+    .grommetux-accordion-panel {
+      margin: 0;
+      padding: 12px;
+      font-size: 1rem;
+      line-height: 1.43;
+      font-weight: normal;
+
+      &--active {
+        svg {
+          transform: rotate(90deg);
+        }
+      }
+
+      .grommetux-accordion-panel__header {
+        min-height: auto;
+        color: $text-color;
+      }
+    }
+
+    .grommetux-collapsible__wrapper {
+      .grommetux-select__option {
+        padding: 6px 12px;
+        font-size: 1rem;
+        line-height: 1.43;
+      }
+    }
+  }
+
+  @each $size-name, $size in $select-size {
+    &--#{$size-name} {
+      .#{$grommet-namespace}search__input {
+        padding: (halve($size) - $input-border-width)
+          (
+            $size - $input-border-width
+          );
+        padding-left: ($size - $input-border-width) - 10px;
+        &:focus {
+          padding: (halve($size) - $input-border-width)
+            (
+              $size - $input-border-width
+            );
+          padding-left: ($size - $input-border-width) - 10px;
+        }
+      }
+
+      .#{$grommet-namespace}select__option {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+  }
+
+  &--small {
+    $icon-size: 13px;
+
+    .#{$grommet-namespace}control-icon {
+      @include size($icon-size);
+    }
+  }
+
+  .#{$grommet-namespace}select__search {
+    padding: 5px 10px;
+
+    &.#{$grommet-namespace}search {
+      .#{$grommet-namespace}search__input {
+        padding: 9px 13px;
+      }
+
+      .#{$grommet-namespace}control-icon {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+
+  .#{$grommet-namespace}select__option {
+    background-color: white;
+    font-weight: $text-font-weight;
+
+    &--selected,
+    &--active {
+      background-color: rgba(51, 51, 51, 0.05);
+      font-weight: $text-strong-font-weight;
+    }
+
+    &--oneline {
+      white-space: nowrap;
+    }
+  }
+
+  &--small {
+    .#{$grommet-namespace}select__option {
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+  }
+}

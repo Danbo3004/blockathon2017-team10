@@ -1,0 +1,9 @@
+Pagination
+```
+<Pagination 
+  pageCount={10}
+  marginPagesDisplayed={2}
+  pageRangeDisplayed={5}
+  onPageChange={this.handlePageClick}
+/>
+```

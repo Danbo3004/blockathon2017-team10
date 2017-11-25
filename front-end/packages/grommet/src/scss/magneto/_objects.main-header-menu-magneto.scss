@@ -1,0 +1,99 @@
+.#{$grommet-namespace}main-header-menu {
+  &__item {
+    color: white;
+    opacity: .7;
+    font-size: 1rem;
+    font-weight: $control-font-weight;
+
+    &:hover {
+      opacity: 1;
+      color: white;
+    }
+
+    &:visited {
+      color: white;
+    }
+
+    &--active {
+      opacity: 1;
+
+      &::after {
+        border-bottom: 7px solid #f9f9f9;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        width: 0;
+        height: 0;
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+      }
+    }
+  }
+
+  .grommetux-radio-button {
+    + .grommetux-radio-button {
+      margin-left: 70px;
+    }
+
+    &:hover {
+      cursor: pointer;
+
+      .grommetux-radio-button__control {
+        color: rgba(255, 255, 255, .7);
+        border-color: white;
+      }
+
+      .grommetux-radio-button__label {
+        cursor: pointer;
+        color: white;
+        opacity: 1;
+      }
+
+      .grommetux-radio-button__input:checked {
+        + .grommetux-radio-button__control {
+          border-color: white;
+        }
+      }
+    }
+
+    .grommetux-radio-button__label {
+      color: white;
+      opacity: .7;
+      font-weight: $text-bold-font-weight;
+      line-height: 46px;
+      position: relative;
+    }
+
+    .grommetux-radio-button__input:checked {
+      + .grommetux-radio-button__control {
+        border-color: white;
+
+        &:after {
+          background-color: white;
+        }
+
+        + .grommetux-radio-button__label {
+          color: white;
+          opacity: 1;
+
+          &:after {
+            content: '';
+            border: 8px solid transparent;
+            border-bottom-color: #F9F9F9;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translate(-50%, 0);
+          }
+        }
+      }
+    }
+
+    .grommetux-radio-button__control {
+      border-color: rgba(255, 255, 255, .7);
+    }
+  }
+}

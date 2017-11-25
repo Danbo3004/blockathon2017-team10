@@ -1,0 +1,46 @@
+$meter-bar-cross-xxsmall:
+  round($inuit-base-spacing-unit * ($size-xsmall / $size-small));
+
+
+.#{$grommet-namespace}meter--bar:not(.#{$grommet-namespace}meter--vertical) {
+
+  .#{$grommet-namespace}meter__graphic {
+    width: $size-small;
+    min-width: $size-xxsmall;
+  }
+
+  &.#{$grommet-namespace}meter--xxsmall {
+
+    .#{$grommet-namespace}meter__graphic {
+      width: $size-xxsmall;
+      height: $meter-bar-cross-xxsmall;
+    }
+
+    &.#{$grommet-namespace}meter--single,
+    &.#{$grommet-namespace}meter--stacked {
+      .#{$grommet-namespace}meter__graphic {
+        height: $meter-bar-cross-xxsmall;
+      }
+    }
+
+    &:not(.#{$grommet-namespace}meter--stacked) {
+      &.#{$grommet-namespace}meter--count-2 {
+        .#{$grommet-namespace}meter__graphic {
+          height: round($meter-bar-cross-xxsmall * 2);
+        }
+      }
+
+      &.#{$grommet-namespace}meter--count-3 {
+        .#{$grommet-namespace}meter__graphic {
+          height: round($meter-bar-cross-xxsmall * 3);
+        }
+      }
+
+      &.#{$grommet-namespace}meter--count-4 {
+        .#{$grommet-namespace}meter__graphic {
+          height: round($meter-bar-cross-xxsmall * 4);
+        }
+      }
+    }
+  }
+}

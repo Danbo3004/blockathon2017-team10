@@ -1,0 +1,294 @@
+exports[`SocialShare has correct className rendering 1`] = `
+<a
+  aria-label={undefined}
+  className="grommetux-anchor grommetux-anchor--animate-icon grommetux-anchor--icon"
+  href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fgrommet.io&title=&summary="
+  onClick={undefined}
+  target="_blank">
+  <span
+    className="grommetux-anchor__icon">
+    <svg
+      aria-label="Share on Linkedin"
+      className="grommetux-control-icon grommetux-control-icon-social-linkedin testing grommetux-control-icon--responsive"
+      height="29px"
+      version="1.1"
+      viewBox="0 0 29 29"
+      width="29px">
+      <g
+        fill="none"
+        fill-rule="evenodd"
+        id="Create-job-ESS"
+        stroke="none"
+        stroke-width="1">
+        <g
+          fill="#0274B3"
+          id="Create-Job---success"
+          transform="translate(-1046.000000, -709.000000)">
+          <g
+            id="Group-4"
+            transform="translate(1004.000000, 709.000000)">
+            <path
+              d="M66.8328385,24.7107188 L62.6524646,24.7107188 L62.6524646,17.9809063 C62.6524646,16.3759375 62.62604,14.3115 60.4803614,14.3115 C58.3056157,14.3115 57.9735464,16.0605625 57.9735464,17.8658125 L57.9735464,24.7107188 L53.7975767,24.7107188 L53.7975767,10.871375 L57.8053097,10.871375 L57.8053097,12.763625 L57.8625631,12.763625 C58.4201224,11.6752188 59.7836325,10.5279063 61.8174469,10.5279063 C66.0506699,10.5279063 66.8328385,13.3934688 66.8328385,17.120875 L66.8328385,24.7107188 Z M49.0843065,8.9809375 C47.7410553,8.9809375 46.658527,7.86353125 46.658527,6.48603125 C46.658527,5.1094375 47.7410553,3.99203125 49.0843065,3.99203125 C50.4213919,3.99203125 51.5074436,5.1094375 51.5074436,6.48603125 C51.5074436,7.86353125 50.4213919,8.9809375 49.0843065,8.9809375 L49.0843065,8.9809375 Z M51.1753742,24.7107188 L46.9905963,24.7107188 L46.9905963,10.871375 L51.1753742,10.871375 L51.1753742,24.7107188 Z M69.8258663,0 L43.9887602,0 C43.3395956,0 42.8137458,0.54103125 42.8137458,1.20803125 L42.8137458,27.7910625 C42.8137458,28.4589688 43.3395956,29 43.9887602,29 L69.8258663,29 C70.4741502,29 71,28.4589688 71,27.7910625 L71,1.20803125 C71,0.54103125 70.4741502,0 69.8258663,0 L69.8258663,0 Z"
+              id="linkedin" />
+          </g>
+        </g>
+      </g>
+    </svg>
+  </span>
+</a>
+`;
+
+exports[`SocialShare has correct email rendering 1`] = `
+<a
+  aria-label={undefined}
+  className="grommetux-anchor grommetux-anchor--animate-icon grommetux-anchor--icon"
+  href="mailto:?subject=&body=%0D%0Ahttp%3A%2F%2Fgrommet.io"
+  onClick={undefined}
+  target="_self">
+  <span
+    className="grommetux-anchor__icon">
+    <svg
+      aria-label="Share on Email"
+      className="grommetux-control-icon grommetux-control-icon-social-mail grommetux-control-icon--responsive"
+      height="24px"
+      role="img"
+      version="1.1"
+      viewBox="0 0 24 24"
+      width="24px">
+      <path
+        d="M23,20 L23,6 L12,15 L1,6 L1,20 L23,20 Z M12,12 L22,4 L2,4 L12,12 Z"
+        fill="#000000"
+        fillRule="evenodd"
+        stroke="none" />
+    </svg>
+  </span>
+</a>
+`;
+
+exports[`SocialShare has correct facebook rendering 1`] = `
+<a
+  aria-label={undefined}
+  className="grommetux-anchor grommetux-anchor--animate-icon grommetux-anchor--icon"
+  href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fgrommet.io"
+  onClick={undefined}
+  target="_blank">
+  <span
+    className="grommetux-anchor__icon">
+    <svg
+      aria-label="Share on Facebook"
+      className="grommetux-control-icon grommetux-control-icon-social-facebook grommetux-control-icon--responsive"
+      height="29px"
+      role="img"
+      version="1.1"
+      viewBox="0 0 29 29"
+      width="29px">
+      <g
+        fill="none"
+        fill-rule="evenodd"
+        id="Create-job-ESS"
+        stroke="none"
+        stroke-width="1">
+        <g
+          fill="#3C5A99"
+          id="Create-Job---success"
+          transform="translate(-1004.000000, -709.000000)">
+          <g
+            id="Group-4"
+            transform="translate(1004.000000, 709.000000)">
+            <path
+              d="M27.0121206,0 L1.17501447,0 C0.525849806,0 0,0.54103125 0,1.20803125 L0,27.7919688 C0,28.4589688 0.525849806,29 1.17501447,29 L14.9739476,29 L14.9739476,18.125 L11.4506658,18.125 L11.4506658,13.59375 L14.9739476,13.59375 L14.9739476,9.96875 C14.9739476,6.22321875 17.2790547,4.37990625 20.5266396,4.37990625 C22.0821686,4.37990625 23.419254,4.49953125 23.8085766,4.55209375 L23.8085766,8.46709375 L21.5563187,8.468 C19.7902738,8.468 19.3780498,9.33165625 19.3780498,10.5985938 L19.3780498,13.59375 L23.782152,13.59375 L22.9013316,18.125 L19.3780498,18.125 L19.4485154,29 L27.0121206,29 C27.6604044,29 28.1862542,28.4589688 28.1862542,27.7919688 L28.1862542,1.20803125 C28.1862542,0.54103125 27.6604044,0 27.0121206,0"
+              id="fb" />
+          </g>
+        </g>
+      </g>
+    </svg>
+  </span>
+</a>
+`;
+
+exports[`SocialShare has correct google rendering 1`] = `
+<a
+  aria-label={undefined}
+  className="grommetux-anchor grommetux-anchor--animate-icon grommetux-anchor--icon"
+  href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fgrommet.io&title=&summary="
+  onClick={undefined}
+  target="_blank">
+  <span
+    className="grommetux-anchor__icon">
+    <svg
+      aria-label="Share on Linkedin"
+      className="grommetux-control-icon grommetux-control-icon-social-linkedin grommetux-control-icon--responsive"
+      height="29px"
+      version="1.1"
+      viewBox="0 0 29 29"
+      width="29px">
+      <g
+        fill="none"
+        fill-rule="evenodd"
+        id="Create-job-ESS"
+        stroke="none"
+        stroke-width="1">
+        <g
+          fill="#0274B3"
+          id="Create-Job---success"
+          transform="translate(-1046.000000, -709.000000)">
+          <g
+            id="Group-4"
+            transform="translate(1004.000000, 709.000000)">
+            <path
+              d="M66.8328385,24.7107188 L62.6524646,24.7107188 L62.6524646,17.9809063 C62.6524646,16.3759375 62.62604,14.3115 60.4803614,14.3115 C58.3056157,14.3115 57.9735464,16.0605625 57.9735464,17.8658125 L57.9735464,24.7107188 L53.7975767,24.7107188 L53.7975767,10.871375 L57.8053097,10.871375 L57.8053097,12.763625 L57.8625631,12.763625 C58.4201224,11.6752188 59.7836325,10.5279063 61.8174469,10.5279063 C66.0506699,10.5279063 66.8328385,13.3934688 66.8328385,17.120875 L66.8328385,24.7107188 Z M49.0843065,8.9809375 C47.7410553,8.9809375 46.658527,7.86353125 46.658527,6.48603125 C46.658527,5.1094375 47.7410553,3.99203125 49.0843065,3.99203125 C50.4213919,3.99203125 51.5074436,5.1094375 51.5074436,6.48603125 C51.5074436,7.86353125 50.4213919,8.9809375 49.0843065,8.9809375 L49.0843065,8.9809375 Z M51.1753742,24.7107188 L46.9905963,24.7107188 L46.9905963,10.871375 L51.1753742,10.871375 L51.1753742,24.7107188 Z M69.8258663,0 L43.9887602,0 C43.3395956,0 42.8137458,0.54103125 42.8137458,1.20803125 L42.8137458,27.7910625 C42.8137458,28.4589688 43.3395956,29 43.9887602,29 L69.8258663,29 C70.4741502,29 71,28.4589688 71,27.7910625 L71,1.20803125 C71,0.54103125 70.4741502,0 69.8258663,0 L69.8258663,0 Z"
+              id="linkedin" />
+          </g>
+        </g>
+      </g>
+    </svg>
+  </span>
+</a>
+`;
+
+exports[`SocialShare has correct linkedin rendering 1`] = `
+<a
+  aria-label={undefined}
+  className="grommetux-anchor grommetux-anchor--animate-icon grommetux-anchor--icon"
+  href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fgrommet.io&title=&summary="
+  onClick={undefined}
+  target="_blank">
+  <span
+    className="grommetux-anchor__icon">
+    <svg
+      aria-label="Share on Linkedin"
+      className="grommetux-control-icon grommetux-control-icon-social-linkedin grommetux-control-icon--responsive"
+      height="29px"
+      version="1.1"
+      viewBox="0 0 29 29"
+      width="29px">
+      <g
+        fill="none"
+        fill-rule="evenodd"
+        id="Create-job-ESS"
+        stroke="none"
+        stroke-width="1">
+        <g
+          fill="#0274B3"
+          id="Create-Job---success"
+          transform="translate(-1046.000000, -709.000000)">
+          <g
+            id="Group-4"
+            transform="translate(1004.000000, 709.000000)">
+            <path
+              d="M66.8328385,24.7107188 L62.6524646,24.7107188 L62.6524646,17.9809063 C62.6524646,16.3759375 62.62604,14.3115 60.4803614,14.3115 C58.3056157,14.3115 57.9735464,16.0605625 57.9735464,17.8658125 L57.9735464,24.7107188 L53.7975767,24.7107188 L53.7975767,10.871375 L57.8053097,10.871375 L57.8053097,12.763625 L57.8625631,12.763625 C58.4201224,11.6752188 59.7836325,10.5279063 61.8174469,10.5279063 C66.0506699,10.5279063 66.8328385,13.3934688 66.8328385,17.120875 L66.8328385,24.7107188 Z M49.0843065,8.9809375 C47.7410553,8.9809375 46.658527,7.86353125 46.658527,6.48603125 C46.658527,5.1094375 47.7410553,3.99203125 49.0843065,3.99203125 C50.4213919,3.99203125 51.5074436,5.1094375 51.5074436,6.48603125 C51.5074436,7.86353125 50.4213919,8.9809375 49.0843065,8.9809375 L49.0843065,8.9809375 Z M51.1753742,24.7107188 L46.9905963,24.7107188 L46.9905963,10.871375 L51.1753742,10.871375 L51.1753742,24.7107188 Z M69.8258663,0 L43.9887602,0 C43.3395956,0 42.8137458,0.54103125 42.8137458,1.20803125 L42.8137458,27.7910625 C42.8137458,28.4589688 43.3395956,29 43.9887602,29 L69.8258663,29 C70.4741502,29 71,28.4589688 71,27.7910625 L71,1.20803125 C71,0.54103125 70.4741502,0 69.8258663,0 L69.8258663,0 Z"
+              id="linkedin" />
+          </g>
+        </g>
+      </g>
+    </svg>
+  </span>
+</a>
+`;
+
+exports[`SocialShare has correct text rendering 1`] = `
+<a
+  aria-label={undefined}
+  className="grommetux-anchor grommetux-anchor--animate-icon grommetux-anchor--icon"
+  href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fgrommet.io&title=&summary=testing"
+  onClick={undefined}
+  target="_blank">
+  <span
+    className="grommetux-anchor__icon">
+    <svg
+      aria-label="Share on Linkedin"
+      className="grommetux-control-icon grommetux-control-icon-social-linkedin grommetux-control-icon--responsive"
+      height="29px"
+      version="1.1"
+      viewBox="0 0 29 29"
+      width="29px">
+      <g
+        fill="none"
+        fill-rule="evenodd"
+        id="Create-job-ESS"
+        stroke="none"
+        stroke-width="1">
+        <g
+          fill="#0274B3"
+          id="Create-Job---success"
+          transform="translate(-1046.000000, -709.000000)">
+          <g
+            id="Group-4"
+            transform="translate(1004.000000, 709.000000)">
+            <path
+              d="M66.8328385,24.7107188 L62.6524646,24.7107188 L62.6524646,17.9809063 C62.6524646,16.3759375 62.62604,14.3115 60.4803614,14.3115 C58.3056157,14.3115 57.9735464,16.0605625 57.9735464,17.8658125 L57.9735464,24.7107188 L53.7975767,24.7107188 L53.7975767,10.871375 L57.8053097,10.871375 L57.8053097,12.763625 L57.8625631,12.763625 C58.4201224,11.6752188 59.7836325,10.5279063 61.8174469,10.5279063 C66.0506699,10.5279063 66.8328385,13.3934688 66.8328385,17.120875 L66.8328385,24.7107188 Z M49.0843065,8.9809375 C47.7410553,8.9809375 46.658527,7.86353125 46.658527,6.48603125 C46.658527,5.1094375 47.7410553,3.99203125 49.0843065,3.99203125 C50.4213919,3.99203125 51.5074436,5.1094375 51.5074436,6.48603125 C51.5074436,7.86353125 50.4213919,8.9809375 49.0843065,8.9809375 L49.0843065,8.9809375 Z M51.1753742,24.7107188 L46.9905963,24.7107188 L46.9905963,10.871375 L51.1753742,10.871375 L51.1753742,24.7107188 Z M69.8258663,0 L43.9887602,0 C43.3395956,0 42.8137458,0.54103125 42.8137458,1.20803125 L42.8137458,27.7910625 C42.8137458,28.4589688 43.3395956,29 43.9887602,29 L69.8258663,29 C70.4741502,29 71,28.4589688 71,27.7910625 L71,1.20803125 C71,0.54103125 70.4741502,0 69.8258663,0 L69.8258663,0 Z"
+              id="linkedin" />
+          </g>
+        </g>
+      </g>
+    </svg>
+  </span>
+</a>
+`;
+
+exports[`SocialShare has correct title rendering 1`] = `
+<a
+  aria-label={undefined}
+  className="grommetux-anchor grommetux-anchor--animate-icon grommetux-anchor--icon"
+  href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fgrommet.io&title=testing&summary="
+  onClick={undefined}
+  target="_blank">
+  <span
+    className="grommetux-anchor__icon">
+    <svg
+      aria-label="Share on Linkedin"
+      className="grommetux-control-icon grommetux-control-icon-social-linkedin grommetux-control-icon--responsive"
+      height="29px"
+      version="1.1"
+      viewBox="0 0 29 29"
+      width="29px">
+      <g
+        fill="none"
+        fill-rule="evenodd"
+        id="Create-job-ESS"
+        stroke="none"
+        stroke-width="1">
+        <g
+          fill="#0274B3"
+          id="Create-Job---success"
+          transform="translate(-1046.000000, -709.000000)">
+          <g
+            id="Group-4"
+            transform="translate(1004.000000, 709.000000)">
+            <path
+              d="M66.8328385,24.7107188 L62.6524646,24.7107188 L62.6524646,17.9809063 C62.6524646,16.3759375 62.62604,14.3115 60.4803614,14.3115 C58.3056157,14.3115 57.9735464,16.0605625 57.9735464,17.8658125 L57.9735464,24.7107188 L53.7975767,24.7107188 L53.7975767,10.871375 L57.8053097,10.871375 L57.8053097,12.763625 L57.8625631,12.763625 C58.4201224,11.6752188 59.7836325,10.5279063 61.8174469,10.5279063 C66.0506699,10.5279063 66.8328385,13.3934688 66.8328385,17.120875 L66.8328385,24.7107188 Z M49.0843065,8.9809375 C47.7410553,8.9809375 46.658527,7.86353125 46.658527,6.48603125 C46.658527,5.1094375 47.7410553,3.99203125 49.0843065,3.99203125 C50.4213919,3.99203125 51.5074436,5.1094375 51.5074436,6.48603125 C51.5074436,7.86353125 50.4213919,8.9809375 49.0843065,8.9809375 L49.0843065,8.9809375 Z M51.1753742,24.7107188 L46.9905963,24.7107188 L46.9905963,10.871375 L51.1753742,10.871375 L51.1753742,24.7107188 Z M69.8258663,0 L43.9887602,0 C43.3395956,0 42.8137458,0.54103125 42.8137458,1.20803125 L42.8137458,27.7910625 C42.8137458,28.4589688 43.3395956,29 43.9887602,29 L69.8258663,29 C70.4741502,29 71,28.4589688 71,27.7910625 L71,1.20803125 C71,0.54103125 70.4741502,0 69.8258663,0 L69.8258663,0 Z"
+              id="linkedin" />
+          </g>
+        </g>
+      </g>
+    </svg>
+  </span>
+</a>
+`;
+
+exports[`SocialShare has correct twitter rendering 1`] = `
+<a
+  aria-label={undefined}
+  className="grommetux-anchor grommetux-anchor--animate-icon grommetux-anchor--icon"
+  href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fgrommet.io&text="
+  onClick={undefined}
+  target="_blank">
+  <span
+    className="grommetux-anchor__icon">
+    <svg
+      aria-label="Share on Twitter"
+      className="grommetux-control-icon grommetux-control-icon-social-twitter grommetux-control-icon--responsive"
+      height="24px"
+      role="img"
+      version="1.1"
+      viewBox="0 0 24 24"
+      width="24px">
+      <path
+        d="M24,4.3086 C23.117,4.7006 22.168,4.9646 21.172,5.0836 C22.188,4.4746 22.969,3.5096 23.337,2.3596 C22.386,2.9246 21.332,3.3336 20.21,3.5556 C19.312,2.5976 18.032,1.9996 16.616,1.9996 C13.897,1.9996 11.692,4.2046 11.692,6.9236 C11.692,7.3096 11.736,7.6856 11.82,8.0456 C7.728,7.8406 4.099,5.8806 1.671,2.9006 C1.247,3.6286 1.004,4.4736 1.004,5.3766 C1.004,7.0846 1.873,8.5926 3.195,9.4756 C2.388,9.4486 1.628,9.2276 0.964,8.8596 L0.964,8.9206 C0.964,11.3066 2.661,13.2966 4.914,13.7486 C4.501,13.8626 4.065,13.9216 3.617,13.9216 C3.299,13.9216 2.991,13.8906 2.69,13.8336 C3.317,15.7896 5.135,17.2136 7.29,17.2536 C5.604,18.5736 3.481,19.3606 1.175,19.3606 C0.777,19.3606 0.385,19.3376 0,19.2926 C2.179,20.6886 4.767,21.5046 7.548,21.5046 C16.605,21.5046 21.557,14.0016 21.557,7.4946 C21.557,7.2816 21.552,7.0696 21.543,6.8586 C22.505,6.1636 23.34,5.2966 24,4.3086"
+        fill="#55ACEE"
+        fillRule="evenodd"
+        stroke="none" />
+    </svg>
+  </span>
+</a>
+`;

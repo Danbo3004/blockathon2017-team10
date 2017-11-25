@@ -1,0 +1,36 @@
+/// Mixin to customize scrollbars
+/// Beware, this does not work in all browsers
+/// @author Hugo Giraudel
+/// @param {Length} $size - Horizontal scrollbar's height and vertical scrollbar's width
+/// @param {Color} $foreground-color - Scrollbar's color
+/// @param {Color} $background-color [mix($primary, white, 75%)] - Scrollbar's color
+/// @example scss - Scrollbar styling
+/// @include scrollbars(.5em, slategray);
+@mixin webkit-scrollbars($size: 5px, $foreground-color: #e3e3e3, $background-color: transparent) {
+  &::-webkit-scrollbar {
+    width: $size;
+    height: $size;
+  }
+
+  &::-webkit-scrollbar-corner {
+    background: $foreground-color;
+    border-color: $foreground-color;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $foreground-color;
+    min-height: 35px;
+    border-radius: $size/2;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $background-color;
+    border-radius: $size/2;
+  }
+
+  // For Internet Explorer
+  body {
+    scrollbar-face-color: $foreground-color;
+    scrollbar-track-color: $background-color;
+  }
+}

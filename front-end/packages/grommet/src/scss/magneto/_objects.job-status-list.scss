@@ -1,0 +1,12 @@
+.#{$grommet-namespace}job-status-list {
+  margin-bottom: 0px;
+  > *:not(:last-child){
+    border-right: 1px #dfdfdf dashed;
+  }
+}
+
+@include media-query(palm) {
+  .#{$grommet-namespace}job-status-list.#{$grommet-namespace}box--responsive {
+    flex-direction: row;
+  }
+}

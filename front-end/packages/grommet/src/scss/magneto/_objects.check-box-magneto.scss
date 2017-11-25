@@ -1,0 +1,132 @@
+.#{$grommet-namespace}check-box {
+  &__label {
+    font-size: 1rem;
+  }
+}
+
+.#{$grommet-namespace}check-box:hover:not(.#{$grommet-namespace}check-box--disabled) {
+  .#{$grommet-namespace}check-box__control {
+    border-color: $active-icon-color;
+
+    #{$dark-background-context} {
+      border-color: $active-colored-icon-color;
+    }
+
+    #{$light-background-context} {
+      border-color: $active-icon-color;
+    }
+  }
+
+  .#{$grommet-namespace}check-box__input:checked +
+  .#{$grommet-namespace}check-box__control {
+    border-color: $active-icon-color;
+
+    #{$dark-background-context} {
+      border-color: $active-colored-icon-color;
+    }
+
+    #{$light-background-context} {
+      border-color: $active-icon-color;
+    }
+  }
+
+  .#{$grommet-namespace}check-box__label {
+    color: $hover-text-color;
+
+    #{$dark-background-context} {
+      color: $active-colored-text-color;
+    }
+
+    #{$light-background-context} {
+      color: $hover-text-color;
+    }
+  }
+}
+
+// > :first-child {
+//   margin-right: halve($inuit-base-spacing-unit);
+//
+//   html.rtl & {
+//     margin-right: 0;
+//     margin-left: halve($inuit-base-spacing-unit);
+//   }
+// }
+
+.#{$grommet-namespace}check-box__input {
+  &:focus + .#{$grommet-namespace}check-box__control {
+    box-shadow: none;
+    border-color: $icon-color;
+  }
+  &:checked {
+    &:focus + .#{$grommet-namespace}check-box__control {
+      border-color: $brand-color;
+    }
+  }
+}
+
+.#{$grommet-namespace}check-box__control-check {
+  top: -1px;
+  left: -1px;
+}
+
+.#{$grommet-namespace}check-box--reverse {
+  .#{$grommet-namespace}check-box__control {
+    margin-right: 0;
+    margin-left: halve($inuit-base-spacing-unit);
+
+    html.rtl & {
+      margin-left: 0;
+      margin-right: halve($inuit-base-spacing-unit);
+    }
+  }
+}
+
+.#{$grommet-namespace}check-box--toggle {
+
+  $toggle-border-color: nth($brand-accent-colors, 2);
+
+  .#{$grommet-namespace}check-box__control {
+    height: 18px;
+    &:after {
+      @include size(20px);
+      top: -1px;
+    }
+  }
+
+  &:hover:not(.#{$grommet-namespace}check-box--disabled) {
+    .#{$grommet-namespace}check-box__control:after {
+      border-color: darken($toggle-border-color, 12%);
+    }
+
+    .#{$grommet-namespace}check-box__input:checked + .#{$grommet-namespace}check-box__control:after {
+      border-color: darken($toggle-border-color, 12%);
+    }
+  }
+
+  .#{$grommet-namespace}check-box__input {
+
+    &:checked + .#{$grommet-namespace}check-box__control {
+      background-color: $toggle-border-color;
+
+      #{$dark-background-context} {
+        background-color: $toggle-border-color;
+      }
+
+      #{$light-background-context} {
+        background-color: $toggle-border-color;
+      }
+
+      &:after {
+        background-color: #fff;
+        border-color: $toggle-border-color;
+        #{$dark-background-context} {
+          border-color: $toggle-border-color;
+        }
+
+        #{$light-background-context} {
+          border-color: $toggle-border-color;
+        }
+      }
+    }
+  }
+}

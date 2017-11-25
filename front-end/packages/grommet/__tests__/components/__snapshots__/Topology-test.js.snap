@@ -1,0 +1,2742 @@
+exports[`Topology has correct default options 1`] = `
+<div
+  aria-label="Topology"
+  className="grommetux-topology"
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseDown={[Function]}
+  onMouseUp={[Function]}
+  role="group"
+  tabIndex="0">
+  <svg
+    className="grommetux-topology__links"
+    height={100}
+    preserveAspectRatio="xMidYMid meet"
+    role="presentation"
+    viewBox="0 0 100 100"
+    width={100} />
+  <div
+    className="grommetux-topology__contents"
+    onMouseLeave={[Function]}
+    onMouseMove={[Function]}>
+    <div
+      aria-label="Parts"
+      className="grommetux-topology__parts grommetux-topology__parts--direction-row"
+      role="rowgroup"
+      tabIndex="-1">
+      <div
+        aria-label="Part"
+        className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--demarcate rack"
+        onFocus={[Function]}
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+        role="group"
+        tabIndex="-1">
+        <div
+          aria-label="Part"
+          className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--demarcate switch"
+          onFocus={[Function]}
+          onMouseEnter={undefined}
+          onMouseLeave={undefined}
+          role="group"
+          tabIndex="-1">
+          <div
+            aria-label="Parts"
+            className="grommetux-topology__parts grommetux-topology__parts--direction-row"
+            role="rowgroup"
+            tabIndex="-1">
+            <div
+              aria-label="ok 1"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch"
+              id="s1p1"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                1
+              </span>
+            </div>
+            <div
+              aria-label="ok 2"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch"
+              id="s1p2"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                2
+              </span>
+            </div>
+            <div
+              aria-label="ok 3"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch"
+              id="s1p3"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                3
+              </span>
+            </div>
+            <div
+              aria-label="ok 4"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch"
+              id="s1p4"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                4
+              </span>
+            </div>
+            <div
+              aria-label="ok 5"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch"
+              id="s1p5"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                5
+              </span>
+            </div>
+            <div
+              aria-label="ok 6"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch"
+              id="s1p6"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                6
+              </span>
+            </div>
+            <div
+              aria-label="ok 7"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch"
+              id="s1p7"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                7
+              </span>
+            </div>
+            <div
+              aria-label="ok 8"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch"
+              id="s1p8"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                8
+              </span>
+            </div>
+          </div>
+          <span
+            className="grommetux-topology__label">
+            HP 3100 SI
+          </span>
+        </div>
+        <div
+          aria-label="Part"
+          className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--demarcate enclosure"
+          onFocus={[Function]}
+          onMouseEnter={undefined}
+          onMouseLeave={undefined}
+          role="group"
+          tabIndex="-1">
+          <div
+            aria-label=" HP Virtual Connect FlexFabric-20/40 F8 Module"
+            className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--demarcate em"
+            onFocus={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            role="row"
+            tabIndex="-1">
+            <span
+              className="grommetux-topology__label">
+              HP Virtual Connect FlexFabric-20/40 F8 Module
+            </span>
+          </div>
+          <div
+            aria-label=" HP Virtual Connect FlexFabric-20/40 F8 Module"
+            className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--demarcate em"
+            onFocus={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            role="row"
+            tabIndex="-1">
+            <span
+              className="grommetux-topology__label">
+              HP Virtual Connect FlexFabric-20/40 F8 Module
+            </span>
+          </div>
+          <div
+            aria-label="Parts"
+            className="grommetux-topology__parts grommetux-topology__parts--direction-row"
+            role="rowgroup"
+            tabIndex="-1">
+            <div
+              aria-label="Part"
+              className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--demarcate em"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="group"
+              tabIndex="-1">
+              <div
+                aria-label="Parts"
+                className="grommetux-topology__parts grommetux-topology__parts--direction-column"
+                role="rowgroup"
+                tabIndex="-1">
+                <div
+                  aria-label="ok 1"
+                  className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-center"
+                  id="em1p1"
+                  onFocus={[Function]}
+                  onMouseEnter={undefined}
+                  onMouseLeave={undefined}
+                  role="row"
+                  tabIndex="-1">
+                  <svg
+                    aria-hidden="true"
+                    aria-label="OK"
+                    className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                    role="img"
+                    version="1.1"
+                    viewBox="0 0 20 21">
+                    <g
+                      className="grommetux-status-icon__base" />
+                    <g
+                      className="grommetux-status-icon__detail"
+                      strokeWidth="1">
+                      <g
+                        fill="#5EA340"
+                        id="components"
+                        transform="translate(-96.000000, -5198.000000)"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g
+                          id="Group-17"
+                          transform="translate(83.000000, 5178.000000)">
+                          <g
+                            id="success"
+                            transform="translate(13.000000, 20.000000)">
+                            <g
+                              id="Group">
+                              <g
+                                id="Shape"
+                                transform="translate(0.000000, 0.157486)">
+                                <path
+                                  d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                  <span
+                    aria-hidden={true}
+                    className="grommetux-topology__label"
+                    role="presentation">
+                    1
+                  </span>
+                </div>
+                <div
+                  aria-label="ok 2"
+                  className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-center"
+                  id="em1p2"
+                  onFocus={[Function]}
+                  onMouseEnter={undefined}
+                  onMouseLeave={undefined}
+                  role="row"
+                  tabIndex="-1">
+                  <svg
+                    aria-hidden="true"
+                    aria-label="OK"
+                    className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                    role="img"
+                    version="1.1"
+                    viewBox="0 0 20 21">
+                    <g
+                      className="grommetux-status-icon__base" />
+                    <g
+                      className="grommetux-status-icon__detail"
+                      strokeWidth="1">
+                      <g
+                        fill="#5EA340"
+                        id="components"
+                        transform="translate(-96.000000, -5198.000000)"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g
+                          id="Group-17"
+                          transform="translate(83.000000, 5178.000000)">
+                          <g
+                            id="success"
+                            transform="translate(13.000000, 20.000000)">
+                            <g
+                              id="Group">
+                              <g
+                                id="Shape"
+                                transform="translate(0.000000, 0.157486)">
+                                <path
+                                  d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                  <span
+                    aria-hidden={true}
+                    className="grommetux-topology__label"
+                    role="presentation">
+                    2
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-label="ok 1"
+              className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-center grommetux-topology__part--demarcate fan"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                1
+              </span>
+            </div>
+            <div
+              aria-label="Part"
+              className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--demarcate grommetux-topology__part--empty fan"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="group"
+              tabIndex="-1" />
+            <div
+              aria-label="ok 3"
+              className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-center grommetux-topology__part--demarcate fan"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                3
+              </span>
+            </div>
+          </div>
+          <div
+            aria-label=" HP Virtual Connect FlexFabric-20/40 F8 Module"
+            className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--demarcate em"
+            onFocus={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            role="row"
+            tabIndex="-1">
+            <span
+              className="grommetux-topology__label">
+              HP Virtual Connect FlexFabric-20/40 F8 Module
+            </span>
+          </div>
+          <div
+            aria-label="Parts"
+            className="grommetux-topology__parts grommetux-topology__parts--direction-row"
+            role="rowgroup"
+            tabIndex="-1">
+            <div
+              aria-label="Part"
+              className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--demarcate em"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="group"
+              tabIndex="-1">
+              <div
+                aria-label="Parts"
+                className="grommetux-topology__parts grommetux-topology__parts--direction-column"
+                role="rowgroup"
+                tabIndex="-1">
+                <div
+                  aria-label="ok 1"
+                  className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-center"
+                  id="em2p1"
+                  onFocus={[Function]}
+                  onMouseEnter={undefined}
+                  onMouseLeave={undefined}
+                  role="row"
+                  tabIndex="-1">
+                  <svg
+                    aria-hidden="true"
+                    aria-label="OK"
+                    className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                    role="img"
+                    version="1.1"
+                    viewBox="0 0 20 21">
+                    <g
+                      className="grommetux-status-icon__base" />
+                    <g
+                      className="grommetux-status-icon__detail"
+                      strokeWidth="1">
+                      <g
+                        fill="#5EA340"
+                        id="components"
+                        transform="translate(-96.000000, -5198.000000)"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g
+                          id="Group-17"
+                          transform="translate(83.000000, 5178.000000)">
+                          <g
+                            id="success"
+                            transform="translate(13.000000, 20.000000)">
+                            <g
+                              id="Group">
+                              <g
+                                id="Shape"
+                                transform="translate(0.000000, 0.157486)">
+                                <path
+                                  d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                  <span
+                    aria-hidden={true}
+                    className="grommetux-topology__label"
+                    role="presentation">
+                    1
+                  </span>
+                </div>
+                <div
+                  aria-label="ok 2"
+                  className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-center"
+                  id="em2p2"
+                  onFocus={[Function]}
+                  onMouseEnter={undefined}
+                  onMouseLeave={undefined}
+                  role="row"
+                  tabIndex="-1">
+                  <svg
+                    aria-hidden="true"
+                    aria-label="OK"
+                    className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                    role="img"
+                    version="1.1"
+                    viewBox="0 0 20 21">
+                    <g
+                      className="grommetux-status-icon__base" />
+                    <g
+                      className="grommetux-status-icon__detail"
+                      strokeWidth="1">
+                      <g
+                        fill="#5EA340"
+                        id="components"
+                        transform="translate(-96.000000, -5198.000000)"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g
+                          id="Group-17"
+                          transform="translate(83.000000, 5178.000000)">
+                          <g
+                            id="success"
+                            transform="translate(13.000000, 20.000000)">
+                            <g
+                              id="Group">
+                              <g
+                                id="Shape"
+                                transform="translate(0.000000, 0.157486)">
+                                <path
+                                  d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                  <span
+                    aria-hidden={true}
+                    className="grommetux-topology__label"
+                    role="presentation">
+                    2
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-label="ok 4"
+              className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-center grommetux-topology__part--demarcate fan"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                4
+              </span>
+            </div>
+            <div
+              aria-label="ok 5"
+              className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-center grommetux-topology__part--demarcate fan"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                5
+              </span>
+            </div>
+            <div
+              aria-label="ok 6"
+              className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-center grommetux-topology__part--demarcate fan"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                6
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-label="Part"
+        className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--demarcate rack"
+        onFocus={[Function]}
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+        role="group"
+        tabIndex="-1">
+        <div
+          aria-label="Part"
+          className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--demarcate switch"
+          onFocus={[Function]}
+          onMouseEnter={undefined}
+          onMouseLeave={undefined}
+          role="group"
+          tabIndex="-1">
+          <div
+            aria-label="Parts"
+            className="grommetux-topology__parts grommetux-topology__parts--direction-row"
+            role="rowgroup"
+            tabIndex="-1">
+            <div
+              aria-label="ok 1"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch"
+              id="s2p1"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                1
+              </span>
+            </div>
+            <div
+              aria-label="ok 2"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch"
+              id="s2p2"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                2
+              </span>
+            </div>
+            <div
+              aria-label="ok 3"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch"
+              id="s2p3"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                3
+              </span>
+            </div>
+            <div
+              aria-label="ok 4"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch"
+              id="s2p4"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                4
+              </span>
+            </div>
+            <div
+              aria-label="ok 5"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch"
+              id="s2p5"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                5
+              </span>
+            </div>
+            <div
+              aria-label="ok 6"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch"
+              id="s2p6"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                6
+              </span>
+            </div>
+            <div
+              aria-label="ok 7"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch"
+              id="s2p7"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                7
+              </span>
+            </div>
+            <div
+              aria-label="ok 8"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch"
+              id="s2p8"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                8
+              </span>
+            </div>
+            <div
+              aria-label="ok 9"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch"
+              id="s2p9"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                9
+              </span>
+            </div>
+            <div
+              aria-label="ok 10"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch"
+              id="s2p10"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                10
+              </span>
+            </div>
+          </div>
+          <span
+            className="grommetux-topology__label">
+            HP 5920AF-24XG
+          </span>
+          <div
+            aria-label="Parts"
+            className="grommetux-topology__parts grommetux-topology__parts--direction-row"
+            role="rowgroup"
+            tabIndex="-1">
+            <div
+              aria-label="ok 11"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--reverse"
+              id="s2p11"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                11
+              </span>
+            </div>
+            <div
+              aria-label="ok 12"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--reverse"
+              id="s2p12"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                12
+              </span>
+            </div>
+            <div
+              aria-label="ok 13"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--reverse"
+              id="s2p13"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                13
+              </span>
+            </div>
+            <div
+              aria-label="ok 14"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--reverse"
+              id="s2p14"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                14
+              </span>
+            </div>
+            <div
+              aria-label="ok 15"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--reverse"
+              id="s2p15"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                15
+              </span>
+            </div>
+            <div
+              aria-label="ok 16"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--reverse"
+              id="s2p16"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                16
+              </span>
+            </div>
+            <div
+              aria-label="ok 17"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--reverse"
+              id="s2p17"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                17
+              </span>
+            </div>
+            <div
+              aria-label="ok 18"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--reverse"
+              id="s2p18"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                18
+              </span>
+            </div>
+            <div
+              aria-label="ok 19"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--reverse"
+              id="s2p19"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                19
+              </span>
+            </div>
+            <div
+              aria-label="ok 20"
+              className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--reverse"
+              id="s2p20"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                20
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          aria-label="Part"
+          className="grommetux-topology__part grommetux-topology__part--direction-column grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--demarcate enclosure"
+          onFocus={[Function]}
+          onMouseEnter={undefined}
+          onMouseLeave={undefined}
+          role="group"
+          tabIndex="-1">
+          <div
+            aria-label="Parts"
+            className="grommetux-topology__parts grommetux-topology__parts--direction-row"
+            role="rowgroup"
+            tabIndex="-1">
+            <div
+              aria-label="Part"
+              className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--demarcate em"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="group"
+              tabIndex="-1">
+              <div
+                aria-label="Parts"
+                className="grommetux-topology__parts grommetux-topology__parts--direction-column"
+                role="rowgroup"
+                tabIndex="-1">
+                <div
+                  aria-label="ok 1"
+                  className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-center"
+                  id="em3p1"
+                  onFocus={[Function]}
+                  onMouseEnter={undefined}
+                  onMouseLeave={undefined}
+                  role="row"
+                  tabIndex="-1">
+                  <svg
+                    aria-hidden="true"
+                    aria-label="OK"
+                    className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                    role="img"
+                    version="1.1"
+                    viewBox="0 0 20 21">
+                    <g
+                      className="grommetux-status-icon__base" />
+                    <g
+                      className="grommetux-status-icon__detail"
+                      strokeWidth="1">
+                      <g
+                        fill="#5EA340"
+                        id="components"
+                        transform="translate(-96.000000, -5198.000000)"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g
+                          id="Group-17"
+                          transform="translate(83.000000, 5178.000000)">
+                          <g
+                            id="success"
+                            transform="translate(13.000000, 20.000000)">
+                            <g
+                              id="Group">
+                              <g
+                                id="Shape"
+                                transform="translate(0.000000, 0.157486)">
+                                <path
+                                  d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                  <span
+                    aria-hidden={true}
+                    className="grommetux-topology__label"
+                    role="presentation">
+                    1
+                  </span>
+                </div>
+                <div
+                  aria-label="ok 2"
+                  className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-center"
+                  id="em3p2"
+                  onFocus={[Function]}
+                  onMouseEnter={undefined}
+                  onMouseLeave={undefined}
+                  role="row"
+                  tabIndex="-1">
+                  <svg
+                    aria-hidden="true"
+                    aria-label="OK"
+                    className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                    role="img"
+                    version="1.1"
+                    viewBox="0 0 20 21">
+                    <g
+                      className="grommetux-status-icon__base" />
+                    <g
+                      className="grommetux-status-icon__detail"
+                      strokeWidth="1">
+                      <g
+                        fill="#5EA340"
+                        id="components"
+                        transform="translate(-96.000000, -5198.000000)"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g
+                          id="Group-17"
+                          transform="translate(83.000000, 5178.000000)">
+                          <g
+                            id="success"
+                            transform="translate(13.000000, 20.000000)">
+                            <g
+                              id="Group">
+                              <g
+                                id="Shape"
+                                transform="translate(0.000000, 0.157486)">
+                                <path
+                                  d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                  <span
+                    aria-hidden={true}
+                    className="grommetux-topology__label"
+                    role="presentation">
+                    2
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-label="ok 1"
+              className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-center grommetux-topology__part--demarcate fan"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                1
+              </span>
+            </div>
+            <div
+              aria-label="ok 2"
+              className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-center grommetux-topology__part--demarcate fan"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                2
+              </span>
+            </div>
+            <div
+              aria-label="ok 3"
+              className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-center grommetux-topology__part--demarcate fan"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                3
+              </span>
+            </div>
+          </div>
+          <div
+            aria-label=" HP Virtual Connect FlexFabric-20/40 F8 Module"
+            className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--demarcate em"
+            onFocus={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            role="row"
+            tabIndex="-1">
+            <span
+              className="grommetux-topology__label">
+              HP Virtual Connect FlexFabric-20/40 F8 Module
+            </span>
+          </div>
+          <div
+            aria-label="Parts"
+            className="grommetux-topology__parts grommetux-topology__parts--direction-row"
+            role="rowgroup"
+            tabIndex="-1">
+            <div
+              aria-label="Part"
+              className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-stretch grommetux-topology__part--demarcate em"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="group"
+              tabIndex="-1">
+              <div
+                aria-label="Parts"
+                className="grommetux-topology__parts grommetux-topology__parts--direction-column"
+                role="rowgroup"
+                tabIndex="-1">
+                <div
+                  aria-label="ok 1"
+                  className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-center"
+                  id="em4p1"
+                  onFocus={[Function]}
+                  onMouseEnter={undefined}
+                  onMouseLeave={undefined}
+                  role="row"
+                  tabIndex="-1">
+                  <svg
+                    aria-hidden="true"
+                    aria-label="OK"
+                    className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                    role="img"
+                    version="1.1"
+                    viewBox="0 0 20 21">
+                    <g
+                      className="grommetux-status-icon__base" />
+                    <g
+                      className="grommetux-status-icon__detail"
+                      strokeWidth="1">
+                      <g
+                        fill="#5EA340"
+                        id="components"
+                        transform="translate(-96.000000, -5198.000000)"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g
+                          id="Group-17"
+                          transform="translate(83.000000, 5178.000000)">
+                          <g
+                            id="success"
+                            transform="translate(13.000000, 20.000000)">
+                            <g
+                              id="Group">
+                              <g
+                                id="Shape"
+                                transform="translate(0.000000, 0.157486)">
+                                <path
+                                  d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                  <span
+                    aria-hidden={true}
+                    className="grommetux-topology__label"
+                    role="presentation">
+                    1
+                  </span>
+                </div>
+                <div
+                  aria-label="ok 2"
+                  className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-center"
+                  id="em4p2"
+                  onFocus={[Function]}
+                  onMouseEnter={undefined}
+                  onMouseLeave={undefined}
+                  role="row"
+                  tabIndex="-1">
+                  <svg
+                    aria-hidden="true"
+                    aria-label="OK"
+                    className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                    role="img"
+                    version="1.1"
+                    viewBox="0 0 20 21">
+                    <g
+                      className="grommetux-status-icon__base" />
+                    <g
+                      className="grommetux-status-icon__detail"
+                      strokeWidth="1">
+                      <g
+                        fill="#5EA340"
+                        id="components"
+                        transform="translate(-96.000000, -5198.000000)"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g
+                          id="Group-17"
+                          transform="translate(83.000000, 5178.000000)">
+                          <g
+                            id="success"
+                            transform="translate(13.000000, 20.000000)">
+                            <g
+                              id="Group">
+                              <g
+                                id="Shape"
+                                transform="translate(0.000000, 0.157486)">
+                                <path
+                                  d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                  <span
+                    aria-hidden={true}
+                    className="grommetux-topology__label"
+                    role="presentation">
+                    2
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-label="ok 4"
+              className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-center grommetux-topology__part--demarcate fan"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                4
+              </span>
+            </div>
+            <div
+              aria-label="ok 5"
+              className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-center grommetux-topology__part--demarcate fan"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                5
+              </span>
+            </div>
+            <div
+              aria-label="ok 6"
+              className="grommetux-topology__part grommetux-topology__part--direction-row grommetux-topology__part--justify-center grommetux-topology__part--align-center grommetux-topology__part--demarcate fan"
+              onFocus={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              role="row"
+              tabIndex="-1">
+              <svg
+                aria-hidden="true"
+                aria-label="OK"
+                className="grommetux-status-icon grommetux-status-icon-ok grommetux-status-icon--small"
+                role="img"
+                version="1.1"
+                viewBox="0 0 20 21">
+                <g
+                  className="grommetux-status-icon__base" />
+                <g
+                  className="grommetux-status-icon__detail"
+                  strokeWidth="1">
+                  <g
+                    fill="#5EA340"
+                    id="components"
+                    transform="translate(-96.000000, -5198.000000)"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g
+                      id="Group-17"
+                      transform="translate(83.000000, 5178.000000)">
+                      <g
+                        id="success"
+                        transform="translate(13.000000, 20.000000)">
+                        <g
+                          id="Group">
+                          <g
+                            id="Shape"
+                            transform="translate(0.000000, 0.157486)">
+                            <path
+                              d="M10.0000001,0 C4.48306755,0 0,4.4277284 0,9.87654815 C0,15.325363 4.48306755, 19.7530914 10.0000001,19.7530914 C15.5169251,19.7530914 20.0000001,15.325363 20.0000001, 9.87654815 C20.0000001,4.4277284 15.5169251,2.80708241e-14 10.0000001,2.80708241e-14 L10.0000001, 0 Z M10,0.987654321 C14.976475,0.987654321 19,4.96150617 19,9.87654815 C19,14.7915852 14.976475, 18.765437 10,18.765437 C5.02350755,18.765437 1.00000005,14.7915852 1.00000005, 9.87654815 C1.00000005,4.96150617 5.02350755,0.987654321 10,0.987654321 L10, 0.987654321 Z M15.7343751,5.92592593 C15.6054001,5.9308642 15.4792501,5.98758025 15.3906251, 6.08024691 C12.9228001,8.54412346 10.6234001,11.2095852 8.20312505,13.6574123 L4.56250005, 10.7484741 C4.35797005,10.5848444 4.02504505,10.6236099 3.85937505,10.8256346 C3.69370505, 11.0276346 3.72515755,11.3564494 3.92968755,11.520079 L7.92968755,14.7067951 C8.11915755, 14.8616099 8.42746005,14.847437 8.60156255,14.6759309 C11.1761251,12.1055605 13.5650001, 9.30721481 16.1015501,6.77469136 C16.4432501,6.36207407 16.1487251,5.93002469 15.7343751, 5.92592593 L15.7343751,5.92592593 Z" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span
+                aria-hidden={true}
+                className="grommetux-topology__label"
+                role="presentation">
+                6
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="grommetux-topology__color-key"
+    role="presentation">
+    <div
+      className="grommetux-background-color-index-graph-1" />
+    <div
+      className="grommetux-background-color-index-graph-2" />
+  </div>
+</div>
+`;

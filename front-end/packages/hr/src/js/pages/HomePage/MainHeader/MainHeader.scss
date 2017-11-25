@@ -1,0 +1,51 @@
+.main-header {
+  background: url('/img/header-background.png');
+  min-height: 48px;
+
+  .app-header {
+    display: flex;
+    align-items: center;
+
+    &__left-col {
+      flex-grow: 1;
+      display: flex;
+    }
+
+    .logo {
+      margin-right: 40px;
+      font-size: 20px;
+      font-weight: 600;
+      color: #d6d6d6;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+.app-header__profile-dropdown {
+  min-width: 200px;
+  text-align: center;
+
+  .profile-dropdown {
+    &__avatar {
+      margin: 15px 0 0;
+    }
+
+    &__name {
+      margin-bottom: 15px;
+      font-size: 16px;
+      color: #414141;
+    }
+
+    &__menu {
+      border-top: 1px solid #ebebeb;
+      text-align: left;
+      padding: 15px 10px;
+
+      > a {
+        text-decoration: none;
+        color: #414141;
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600&subset=vietnamese');
+@import url('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+@import url('//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+
+$brand-font-family: 'Source Sans Pro', sans-serif;
+$brand-large-number-font-family: $brand-font-family;
+
+$text-font-weight: 300;
+$text-strong-font-weight: 400;
+$control-font-weight: 500;
+$text-bold-font-weight: 500;
+
+$base-font-size: 14px;
+$content-small-font-size: 11px;
+$content-font-size: $base-font-size;
+$control-font-size: $base-font-size;
+
+$paragraph-font-size: $content-font-size;
+$paragraph-line-height: 1.375;
+$paragraph-small-font-size: 14px;
+$paragraph-small-line-height: 1.43;
+$paragraph-large-font-size: 24px;
+$paragraph-large-line-height: 1.167;
+$paragraph-xlarge-font-size: 32px;
+$paragraph-xlarge-line-height: 1.1875;
+
+$headline-font-size: 36px;
+$headline-small-font-size: 17px;
+$headline-large-font-size: 54px;
+$headline-xlarge-font-size: 108px;
+$headline-palm-font-size: 27px;
+$headline-large-palm-font-size: 34px;
+$headline-xlarge-palm-font-size: 40.5px;
+
+$h1-font-size: 36px;
+$h1-line-height: 1.25;
+$h1-palm-font-size: 27px;
+
+$h2-font-size: 27px;
+$h2-line-height: 1.23;
+$h2-palm-font-size: 21px;
+
+$h3-font-size: 18px;
+$h3-line-height: 1.333;
+
+$h4-font-size: 14px;
+$h4-line-height: 1.333;
+
+$h5-font-size: 12px;
+$h5-line-height: 1.375;
+
+$h6-font-size: 12px;
+$h6-line-height: 1.375;
+
+html,
+body {
+  font-family: $brand-font-family;
+  font-size: 14px !important;
+}

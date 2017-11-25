@@ -1,0 +1,15 @@
+.#{$grommet-namespace}check-box-list {
+  border: solid $control-border-width #ededed;
+  border-radius: $border-radius;
+
+  &__select-all {
+    background: #fafafa;
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+  }
+
+  &__select-all,
+  &__select-item {
+    padding: 10px 18px;
+  }
+}

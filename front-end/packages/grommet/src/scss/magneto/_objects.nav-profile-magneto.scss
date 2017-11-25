@@ -1,0 +1,30 @@
+.#{$grommet-namespace}nav-profile {
+  &__info {
+    &__name {
+      display: block;
+      font-size: 14px;
+      color: #cecece;
+      font-weight: $text-strong-font-weight;
+      line-height: 1.38;
+      max-width: 150px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    &__company-name {
+      display: block;
+      font-size: 12px;
+      color: #b0b0b0;
+      line-height: 1.33;
+      max-width: 150px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  i {
+    color: #bbbdbf;
+  }
+}

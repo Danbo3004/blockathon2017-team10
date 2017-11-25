@@ -1,0 +1,270 @@
+//
+// VARIABLES
+//
+
+//
+// Settings
+
+// The class name to contain everything within.
+$prefix-class: daterangepicker;
+$arrow-size: 0px;
+
+//
+// Colors
+$daterangepicker-color: $text-color;
+$daterangepicker-bg-color: $background-color;
+
+$daterangepicker-cell-color: $daterangepicker-color;
+$daterangepicker-cell-border-color: transparent;
+$daterangepicker-cell-bg-color: $daterangepicker-bg-color;
+
+$daterangepicker-cell-hover-color: $hover-text-color;
+$daterangepicker-cell-hover-border-color: $daterangepicker-cell-border-color;
+$daterangepicker-cell-hover-bg-color: #e0f4f8;
+
+$daterangepicker-in-range-color: $text-color;
+$daterangepicker-in-range-border-color: transparent;
+$daterangepicker-in-range-bg-color: #e0f4f8;
+
+$daterangepicker-active-color: #fff;
+$daterangepicker-active-bg-color: #20b7d7;
+$daterangepicker-active-border-color: transparent;
+
+$daterangepicker-unselected-color: #999 !default;
+$daterangepicker-unselected-border-color: transparent !default;
+$daterangepicker-unselected-bg-color: #fff !default;
+
+//
+// daterangepicker
+$daterangepicker-width: 278px !default;
+$daterangepicker-padding: 4px !default;
+$daterangepicker-z-index: 3000 !default;
+
+$daterangepicker-border-size: 1px !default;
+$daterangepicker-border-color: #ccc !default;
+$daterangepicker-border-radius: $border-radius-base;
+
+//
+// Calendar
+$daterangepicker-calendar-margin: $daterangepicker-padding !default;
+$daterangepicker-calendar-bg-color: $daterangepicker-bg-color !default;
+
+$daterangepicker-calendar-border-size: 1px !default;
+$daterangepicker-calendar-border-color: $daterangepicker-bg-color !default;
+$daterangepicker-calendar-border-radius: $daterangepicker-border-radius !default;
+
+//
+// Calendar Cells
+$daterangepicker-cell-size: 20px !default;
+$daterangepicker-cell-width: 22px;
+$daterangepicker-cell-height: 32px;
+
+$daterangepicker-cell-border-radius: $daterangepicker-calendar-border-radius !default;
+$daterangepicker-cell-border-size: 0;
+
+//
+// Dropdowns
+$daterangepicker-dropdown-z-index: $daterangepicker-z-index + 1 !default;
+
+//
+// Controls
+$daterangepicker-control-height: 30px !default;
+$daterangepicker-control-line-height: $daterangepicker-control-height !default;
+$daterangepicker-control-color: #555 !default;
+
+$daterangepicker-control-border-size: 1px !default;
+$daterangepicker-control-border-color: #ccc !default;
+$daterangepicker-control-border-radius: 4px !default;
+
+$daterangepicker-control-active-border-size: 1px !default;
+$daterangepicker-control-active-border-color: #08c !default;
+$daterangepicker-control-active-border-radius: $daterangepicker-control-border-radius !default;
+
+$daterangepicker-control-disabled-color: #ccc !default;
+
+//
+// Ranges
+$daterangepicker-ranges-color: $text-color;
+$daterangepicker-ranges-bg-color: $background-color;
+
+$daterangepicker-ranges-border-size: 0;
+$daterangepicker-ranges-border-color: $daterangepicker-ranges-bg-color !default;
+$daterangepicker-ranges-border-radius: 0;
+
+$daterangepicker-ranges-hover-color: $text-color;
+$daterangepicker-ranges-hover-bg-color: rgba(51, 51, 51, 0.05);
+$daterangepicker-ranges-hover-border-size: $daterangepicker-ranges-border-size !default;
+$daterangepicker-ranges-hover-border-color: $daterangepicker-ranges-hover-bg-color !default;
+$daterangepicker-ranges-hover-border-radius: 0;
+
+$daterangepicker-ranges-active-border-size: $daterangepicker-ranges-border-size !default;
+$daterangepicker-ranges-active-border-color: $daterangepicker-ranges-bg-color !default;
+$daterangepicker-ranges-active-border-radius: 0;
+
+@import "../../../node_modules/bootstrap-daterangepicker/daterangepicker.scss";
+
+//daterangepicker dropdown-menu ltr show-calendar opensright
+
+.#{$prefix-class} {
+  //----------------------- Local Var ---------------*/
+  $input-padding: ($inuit-base-spacing-unit - $control-font-size) * 2;
+  //-------------------------------------------------*/
+
+  display: none;
+
+  &.dropdown-menu {
+    @include border-top-radius($border-radius-base);
+    @include border-top-radius($border-radius-base);
+    @include vp-box-shadow($layer-box-shadow);
+  }
+
+  &.opensleft {
+    padding-right: 0;
+    .ranges {
+      margin-right: 0;
+    }
+  }
+
+  &.opensright {
+    padding-left: 0;
+    .ranges {
+      margin-left: 0;
+    }
+  }
+
+  .calendar {
+    table {
+      border-spacing: 0;
+      font-size: 12px;
+
+      th {
+        color: #9ea7ae;
+        &.month {
+          color: #333333;
+          font-size: 16px;
+          font-weight: 300;
+        }
+      }
+
+      td {
+        &.start-date,
+        &.end-date {
+          border-radius: $border-radius-base;
+        }
+      }
+    }
+
+    input.form-control {
+      @include input();
+      height: 35px;
+      color: $text-color;
+      font-weight: 300;
+
+      &, &:focus {
+        padding: (halve($input-padding) - $input-border-width) ($input-padding - $input-border-width);
+        padding-left: 30px;
+      }
+    }
+
+    .daterangepicker_input i {
+      top: 9px;
+    }
+  }
+
+  .ranges {
+    ul {
+      width: auto;
+      margin-bottom: 8px;
+
+      li {
+        white-space: nowrap;
+        font-size: $base-font-size;
+        font-weight: 300;
+        padding: 7px 30px 7px 12px;
+        margin-bottom: 0;
+
+        &.active, &:hover {
+          font-weight: normal;
+        }
+
+        &.active {
+          background-color: transparent;
+          color: #0eb1d3;
+          line-height: 1.43;
+          position: relative;
+
+          &:after {
+            /*Add another block-level blank space*/
+            content: '';
+            display: block;
+            position: absolute;
+            right: 12px;
+            top: 8px;
+
+            /*Make it a small rectangle so the border will create an L-shape*/
+            @include size(6px 14px);
+
+            /*Add a white border on the bottom and left, creating that 'L' */
+            border: solid #0eb1d3;
+            border-width: 0 2px 2px 0;
+
+            /*Rotate the L 45 degrees to turn it into a checkmark*/
+            @include vp-transform(rotate(45deg));
+          }
+        }
+      }
+    }
+
+    .range_inputs {
+      text-align: left;
+      padding: 0 12px;
+      display: flex;
+      align-items: center;
+      align-content: space-around;
+
+      .applyBtn,
+      .cancelBtn {
+        min-width: 62px;
+        padding: 4.5px 11px;
+        width: 100%;
+        @include basic-button();
+      }
+
+      .applyBtn {
+        background-color: $brand-color;
+        color: $active-colored-text-color;
+
+        &:disabled {
+          opacity: 0.3;
+          cursor: default;
+        }
+      }
+
+      .cancelBtn {
+        border: none;
+        text-align: inherit;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.#{$grommet-namespace}date-range-picker {
+  position: relative;
+  i.fa {
+    position: absolute;
+    top: 14px;
+    left: 9px;
+  }
+  .#{$grommet-namespace}text-input {
+    padding-left: 32px;
+  }
+}
+
+.#{$grommet-namespace}filter-bar {
+  .#{$grommet-namespace}date-range-picker {
+    i.fa {
+      top: 10px;
+    }
+  }
+}

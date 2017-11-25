@@ -1,0 +1,25 @@
+.#{$grommet-namespace}explanation-box {
+  padding: 8px 16px;
+  @include inuit-font-size($control-font-size, $inuit-base-spacing-unit);
+
+  @each $status, $color in $brand-status-colors {
+    &--status-#{$status} {
+      $border-color: map-get($notification-border, $status);
+
+      // background-color comes from background-color-index
+      border: 1px solid $border-color;
+      @include border-bottom-radius($border-radius);
+      @include border-top-radius($border-radius);
+
+      .#{$grommet-namespace}explanation-box--message {
+        color: map-get($notification-color, $status);
+        font-size: 13px;
+        padding-top: 3px;
+      }
+    }
+  }
+
+  .#{$grommet-namespace}explanation-box--icon {
+    margin-right: 7px;
+  }
+}

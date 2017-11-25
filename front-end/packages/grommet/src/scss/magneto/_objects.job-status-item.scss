@@ -1,0 +1,23 @@
+.#{$grommet-namespace}job-status-item {
+  .step-content {
+    max-width: 100px;
+    max-height: 100px;
+    p.value {
+      margin: 4px auto;
+      font-size: 13px;
+      color: #323232;
+      font-weight: 300;
+      line-height: 1.44;
+    }
+    p.label {
+      font-size: 11px;
+      font-weight: normal;
+      text-transform: uppercase;
+      line-height: 1.45;
+      letter-spacing: 0.2px;
+      color: #b0b0b0;
+      text-align: center;
+      margin: 0px;
+    }
+  }
+}

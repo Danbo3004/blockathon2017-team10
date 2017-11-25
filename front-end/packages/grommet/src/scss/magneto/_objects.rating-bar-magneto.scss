@@ -1,0 +1,31 @@
+.grommetux-rating-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  > span {
+    flex-grow: 1;
+    padding: 0 5px;
+  }
+}
+
+.rating-item--full {
+  background: #83cd1f;
+  margin: 6px 5px 0;
+  height: 3px;
+
+  &.rating-item--danger {
+    background: #f43939;
+  }
+}
+
+.rating-item--empty {
+  height: 6px;
+  width: 100%;
+
+  .appear {
+    height: 3px;
+    margin-top: 6px;
+    background: #E6E9E6;
+  }
+}

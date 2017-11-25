@@ -1,0 +1,57 @@
+.#{$grommet-namespace}triangle-full-box {
+
+  //----------------------- Local Var ---------------*/
+  border: 1px solid $border-color;
+  margin-top: 10px;
+  border-radius: 3px;
+  background-color: rgb(249, 249, 249);
+
+  $triangle-size: 20px;
+  $triangle-shadow-size: 2px;
+  $directions: ('up', 'right', 'down', 'left');
+  $directions-map: (
+    up: (position: 'top', direction: 'left'),
+    right: (position: 'right', direction: 'top'),
+    down: (position: 'bottom', direction: 'left'),
+    left: (position: 'left', direction: 'top')
+  );
+  $text-align: (center, left, right, justify);
+  //-------------------------------------------------*/
+
+  position: relative;
+  width: 100%;
+  @each $align, $idx in $text-align {
+    &--#{$align} {
+      text-align: $align;
+    }
+  }
+
+  &:after, &:before {
+    content: '';
+    position: absolute;
+    display: block;
+  }
+
+  @each $direction, $index in $directions {
+    $map: map-get($directions-map, $direction);
+    $position: map-get($map, position); // top|right|bottom|left
+    $direct: map-get($map, direction); // left|top
+
+    &--direction--#{$direction} {
+
+      // margin-#{$position}: $triangle-size/2;
+
+      &:after {
+        #{$position}: - ($triangle-size/2 - $triangle-shadow-size/2);
+        #{$direct}: calc(#{$triangle-size/2 + 20});
+        @include triangle($triangle-size, rgb(249, 249, 249), $direction);
+      }
+
+      &:before {
+        #{$position}: - ($triangle-size/2 - $triangle-shadow-size/2 + 1);
+        #{$direct}: calc(#{$triangle-size/2 - $triangle-shadow-size/2 + 20});
+        @include triangle(($triangle-size + $triangle-shadow-size),  $border-color, $direction);
+      }
+    }
+  }
+}

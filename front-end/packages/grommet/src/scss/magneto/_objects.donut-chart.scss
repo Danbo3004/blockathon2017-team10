@@ -1,0 +1,121 @@
+$donutChartColors: $brand-color, nth($brand-accent-colors, 1), #A3E7CB, nth($brand-accent-colors, 3),
+#5A9BD4, #FAA75B, #A368D5, #CE7058, #D77FB4;
+
+.#{$grommet-namespace}donut-chart {
+  width: 12.25rem;
+  //margin: 0.5em;
+  font-family: Roboto;
+}
+
+.#{$grommet-namespace}donut-chart-range {
+  display: block;
+}
+
+.#{$grommet-namespace}donut-chart {
+}
+
+.#{$grommet-namespace}donut-chart-path {
+  @for $i from 1 through length($donutChartColors) {
+    &:nth-child(#{$i}) {
+      fill: nth($donutChartColors, $i);
+    }
+  }
+
+  &.#{$grommet-namespace}donut-chart-path--empty {
+    fill: #e1edf0;
+  }
+
+  &.#{$grommet-namespace}donut-chart-path--spent {
+    fill: #8dc241;
+  }
+
+  &.#{$grommet-namespace}donut-chart-path--remaining {
+    fill: #5AA1CC;
+  }
+}
+
+.#{$grommet-namespace}donut-chart-label, #{$grommet-namespace}donut-chart-value {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  font-family: Roboto;
+}
+
+.#{$grommet-namespace}donut-chart-label {
+  fill: #a7a7a7;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+.#{$grommet-namespace}donut-chart-value {
+  fill: $text-color;
+  font-size: 2rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+}
+
+#app {
+  margin: 1em;
+}
+
+.Message {
+  width: 12rem;
+  height: 12rem;
+  margin: 0.5em;
+  padding: 1em;
+  background-color: papayawhip;
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.#{$grommet-namespace}donut-chart, .Message {
+  float: left;
+}
+
+#output, .html-reporter {
+  clear: both !important;
+}
+
+.#{$grommet-namespace}donut-chart-legend {
+  font-family: Roboto;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+  list-style: none;
+  color: $text-color;
+  margin: 0;
+  margin-top: 10px;
+
+  .#{$grommet-namespace}donut-chart-legend--item {
+    > span {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+    }
+
+    > span:before {
+      content: "";
+      display: block;
+      position: relative;
+      border: none;
+      margin-right: 10px;
+      @include size(8px);
+      @include border-top-radius(50%);
+      @include border-bottom-radius(50%);
+    }
+  }
+
+  @for $i from 1 through length($donutChartColors) {
+    .#{$grommet-namespace}donut-chart-legend--item:nth-child(#{$i}) {
+      > span:before {
+        background-color: nth($donutChartColors, $i);
+      }
+    }
+  }
+}

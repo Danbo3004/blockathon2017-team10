@@ -1,0 +1,18 @@
+.#{$grommet-namespace}breadcrumb {
+  > .#{$grommet-namespace}anchor {
+    text-decoration: none;
+    font-size: 13px;
+
+    &:after {
+      content: '\f105';
+      font: normal normal normal 14px/1 FontAwesome;
+      margin: 0 10px;
+    }
+
+    &:last-child {
+      &:after {
+        display: none;
+      }
+    }
+  }
+}

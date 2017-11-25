@@ -1,0 +1,189 @@
+div.ReactTags__tags {
+  position: relative;
+  &.show-more {
+    max-height: 90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.show-more-button.ReactTags__tags {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+/* Styles for the input */
+div.ReactTags__tagInput {
+  width: 200px;
+  display: inline-block;
+  border: none;
+
+  input {
+    &::-moz-focus-inner {
+      border: none;
+      outline: none;
+    }
+
+    &::-webkit-input-placeholder {
+      color: $placeholder-text-color;
+    }
+
+    &::-moz-placeholder {
+      color: $placeholder-text-color;
+    }
+
+    &:-ms-input-placeholder {
+      color: $placeholder-text-color;
+    }
+  }
+}
+
+div.ReactTags__tagInput input.ReactTags__tagInputField,
+div.ReactTags__tagInput input.ReactTags__tagInputField:focus {
+  height: 31px;
+  width: 100%;
+  margin: 0;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Styles for selected tags */
+div.ReactTags__selected span.ReactTags__tag {
+  background: #ededed;
+  font-family: $brand-font-family;
+  font-size: $base-font-size;
+  line-height: 1.286;
+  margin: 0;
+  margin-right: 6px;
+  cursor: move;
+  border-radius: 2px;
+  color: #666666;
+  padding: 5px 5px 5px 10px;
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+div.ReactTags__selected a.ReactTags__remove {
+  color: #c1cdd0;
+  margin-left: 10px;
+  cursor: pointer;
+
+  .#{$grommet-namespace}control-icon {
+    @include size(13px);
+    top: 2px;
+    position: relative;
+  }
+}
+
+/* Styles for suggestions */
+div.ReactTags__suggestions {
+  position: fixed;
+}
+
+div.ReactTags__suggestions ul {
+  list-style-type: none;
+  width: 200px;
+  max-height: 350px;
+  overflow-y: auto;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  background-color: $layer-background-color;
+  @include vp-box-shadow($layer-box-shadow);
+  @include webkit-scrollbars(5px, #e3e3e3, transparent);
+}
+
+div.ReactTags__suggestions li {
+  padding: 5px 10px;
+  margin: 0;
+}
+
+div.ReactTags__suggestions li mark {
+  background: none;
+  font-weight: bold;
+  color: $brand-color;
+}
+
+div.ReactTags__suggestions ul li.active {
+  background: $hover-background-color;
+  cursor: pointer;
+}
+
+.#{$grommet-namespace}tags-input {
+  &__form-field {
+    overflow: visible;
+
+    .#{$grommet-namespace}form-field__contents {
+      overflow: visible;
+      white-space: nowrap;
+    }
+  }
+
+  &--selecting {
+    position: relative;
+    height: 24px;
+    margin-top: -4px;
+    overflow: visible;
+
+    > div {
+      > div:nth-child(2) {
+        z-index: 11;
+        height: 3px !important;
+        bottom: 0 !important;
+      }
+
+      > div:nth-child(3) {
+        display: none;
+      }
+    }
+
+    .ReactTags__selected {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 10;
+
+      .ReactTags__tag {
+        cursor: auto;
+        font-size: 13px;
+        padding-top: 0;
+        padding-bottom: 0;
+
+        .#{$grommet-namespace}tags-input__remove-icon {
+          vertical-align: middle;
+          margin-left: 5px;
+          display: inline-flex;
+        }
+      }
+    }
+
+    .#{$grommet-namespace}autosuggest__container {
+      position: absolute;
+
+      input {
+        opacity: 0;
+
+        &:focus {
+          padding: 0;
+        }
+      }
+    }
+  }
+
+  &__remove-icon {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 10px;
+
+    svg {
+      width: 13px;
+      height: 13px;
+      stroke: #afafaf;
+    }
+  }
+}

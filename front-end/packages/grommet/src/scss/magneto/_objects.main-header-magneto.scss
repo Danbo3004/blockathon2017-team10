@@ -1,0 +1,131 @@
+.#{$grommet-namespace}main-header {
+  min-height: 113px;
+  background-color: $link-color;
+  background-image: url('../../img/magneto/pattern.png');
+  background-image: -webkit-image-set(url('../../img/magneto/pattern.png') 1x,
+    url('../../img/magneto/pattern@2x.png') 2x,
+    url('../../img/magneto/pattern@3x.png') 3x);
+  background-image: -moz-image-set(url('../../img/magneto/pattern.png') 1x,
+    url('../../img/magneto/pattern@2x.png') 2x,
+    url('../../img/magneto/pattern@3x.png') 3x);
+  background-image: -o-image-set(url('../../img/magneto/pattern.png') 1x,
+    url('../../img/magneto/pattern@2x.png') 2x,
+    url('../../img/magneto/pattern@3x.png') 3x);
+  background-image: -ms-image-set(url('../../img/magneto/pattern.png') 1x,
+    url('../../img/magneto/pattern@2x.png') 2x,
+    url('../../img/magneto/pattern@3x.png') 3x);
+  background-position: 0;
+  position: relative;
+  @include media-query(portable) {
+    padding: 22px 0;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 113px;
+    width: 646px;
+    background-image: url('../../img/magneto/illust.png');
+    background-image: -webkit-image-set(url('../../img/magneto/illust.png') 1x,
+      url('../../img/magneto/illust@2x.png') 2x,
+      url('../../img/magneto/illust@3x.png') 3x);
+    background-image: -moz-image-set(url('../../img/magneto/illust.png') 1x,
+      url('../../img/magneto/illust@2x.png') 2x,
+      url('../../img/magneto/illust@3x.png') 3x);
+    background-image: -o-image-set(url('../../img/magneto/illust.png') 1x,
+      url('../../img/magneto/illust@2x.png') 2x,
+      url('../../img/magneto/illust@3x.png') 3x);
+    background-image: -ms-image-set(url('../../img/magneto/illust.png') 1x,
+      url('../../img/magneto/illust@2x.png') 2x,
+      url('../../img/magneto/illust@3x.png') 3x);
+  }
+
+  & > .container {
+    height: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: absolute;
+
+    @include media-query(portable) {
+      position: relative;
+    }
+
+    & > .row {
+      height: 100%;
+
+      .#{$grommet-namespace}main-header__left-box {
+        position: relative;
+
+        .#{$grommet-namespace}main-header__title-wrapper {
+          height: 100%;
+          @include media-query(lap-and-up) {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+          }
+        }
+
+        .#{$grommet-namespace}main-header__back {
+          position: absolute;
+          top: 0;
+        }
+
+        .#{$grommet-namespace}main-header__title {
+          color: white;
+          font-size: 36px;
+          font-weight: $text-font-weight;
+          line-height: 1.33;
+          max-width: 100%;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+
+          &--centered {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, 0);
+          }
+
+          &--vertical-centered {
+            position: absolute;
+          }
+        }
+
+        .#{$grommet-namespace}main-header__sub-title {
+          line-height: 1.25;
+          color: white;
+          margin: 0;
+          opacity: .8;
+          min-height: 19px;
+          @include media-query(portable) {
+            min-height: 0;
+          }
+        }
+
+        .#{$grommet-namespace}main-header__action-box {
+          position: absolute;
+          left: 15px;
+          bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+@include media-query(portable) {
+  .#{$grommet-namespace}main-header {
+    justify-content: center;
+
+    & > .container {
+      & > .row {
+        .#{$grommet-namespace}main-header__left-box {
+          .#{$grommet-namespace}main-header__title {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.#{$grommet-namespace}date-picker {
+  margin: 0;
+  font-size: $base-font-size;
+
+  > div {
+    margin-bottom: 0;
+    line-height: 17px !important;
+
+    span {
+      &:focus {
+        outline: none;
+      }
+
+      button {
+        line-height: 18px;
+        padding: 0;
+        cursor: pointer;
+
+        .grommetux-button__icon {
+          padding: 0;
+        }
+      }
+
+      input.ant-calendar-picker-input {
+        border: none;
+        padding: 0;
+        line-height: 1.214;
+        width: calc(100% - 20px);
+
+        &:focus {
+          padding: 0;
+        }
+      }
+    }
+  }
+}

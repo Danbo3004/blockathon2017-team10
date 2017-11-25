@@ -1,0 +1,134 @@
+// (C) Copyright 2016 Hewlett Packard Enterprise Development LP
+
+.#{$grommet-namespace}toast__container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: auto;
+  z-index: 100;
+  width: 300px;
+}
+
+@include keyframes(toast-lower) {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@include keyframes(toast-raise) {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.#{$grommet-namespace}toast {
+  @each $status, $color in $brand-status-colors {
+    &--status-#{$status} {
+      $border-color: map-get($notification-border, $status);
+
+      .#{$grommet-namespace}toast {
+        background-color: $color;
+        $border-color: map-get($notification-border, $status);
+        border: 1px solid $border-color;
+        @include border-bottom-radius($border-radius);
+        @include border-top-radius($border-radius);
+      }
+
+      .#{$grommet-namespace}box {
+        padding: 7px;
+      }
+
+      .#{$grommet-namespace}toast__contents {
+        color: map-get($notification-color, $status);
+      }
+
+      .#{$grommet-namespace}toast__closer {
+        margin: 0;
+        .#{$grommet-namespace}button__icon {
+          padding: 7px;
+        }
+
+        .#{$grommet-namespace}control-icon {
+          vertical-align: top;
+          @include icon-color($border-color);
+          @include size(15px);
+          fill: $color;
+          path, circle {
+            stroke: $border-color;
+          }
+        }
+      }
+
+      .#{$grommet-namespace}status-icon {
+
+        .#{$grommet-namespace}status-icon__base {
+          fill: none;
+          stroke: $border-color;
+          path, circle {
+            @if $status == warning {
+              fill: none;
+            }
+            else {
+              fill: $border-color;
+            }
+            stroke: $border-color;
+            stroke-width: 1px;
+          }
+        }
+
+        .#{$grommet-namespace}status-icon__detail {
+          fill: none;
+          stroke: $border-color;
+          path, circle {
+            fill: $border-color;
+            stroke: $border-color;
+            stroke-width: 1px;
+          }
+        }
+
+        &.#{$grommet-namespace}status-icon-unknown {
+          .#{$grommet-namespace}status-icon__detail {
+            stroke: $active-colored-text-color;
+            fill: $active-colored-text-color;
+          }
+        }
+      }
+    }
+  }
+
+  .#{$grommet-namespace}button {
+    min-width: 0;
+    padding: 0;
+  }
+}
+
+.#{$grommet-namespace}toast--closing {
+  @include animation('toast-raise #{$animation-duration}');
+}
+
+.#{$grommet-namespace}toast__closer {
+  .#{$grommet-namespace}button__icon {
+    padding: 0;
+  }
+}
+
+.#{$grommet-namespace}toast__status {
+  align-self: center;
+  padding: halve($inuit-base-spacing-unit) 0 halve($inuit-base-spacing-unit) halve($inuit-base-spacing-unit);
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.#{$grommet-namespace}toast__contents {
+  font-size: $content-font-size;
+  line-height: 1.29;
+  flex: 1;
+  padding: halve($inuit-base-spacing-unit);
+}

@@ -1,0 +1,67 @@
+.#{$grommet-namespace}filter-bar {
+  font-size: $base-font-size;
+
+  .#{$grommet-namespace}filter-bar--item {
+    margin-right: 10px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .#{$grommet-namespace}text-input,
+  .#{$grommet-namespace}select .#{$grommet-namespace}input.#{$grommet-namespace}select__input,
+  .#{$grommet-namespace}search .#{$grommet-namespace}input.#{$grommet-namespace}search__input {
+    font-size: inherit;
+    background-color: $background-color;
+    @include border-top-radius(3px);
+    @include border-bottom-radius(3px);
+  }
+
+  .#{$grommet-namespace}button {
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
+  }
+
+  .#{$grommet-namespace}text-input {
+    padding: 7px 10px;
+  }
+
+  .#{$grommet-namespace}search .#{$grommet-namespace}input.#{$grommet-namespace}search__input {
+    padding: 4.5px 10px;
+  }
+
+  .#{$grommet-namespace}select {
+    .#{$grommet-namespace}input.#{$grommet-namespace}select__input {
+      width: 100%;
+      padding: 4.5px 30px 4.5px 10px;
+    }
+
+    .#{$grommet-namespace}button__icon {
+      padding: 0 5px 0 0;
+    }
+  }
+
+  .#{$grommet-namespace}search {
+    &.#{$grommet-namespace}search--icon-align-start {
+      .#{$grommet-namespace}search__input {
+        padding-left: 33px;
+      }
+    }
+
+    &.#{$grommet-namespace}search--icon-align-end {
+      .#{$grommet-namespace}search__input {
+        padding-right: 33px;
+      }
+    }
+
+    .#{$grommet-namespace}control-icon {
+      @include size(13px);
+    }
+  }
+
+  .#{$grommet-namespace}-select__option{
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}

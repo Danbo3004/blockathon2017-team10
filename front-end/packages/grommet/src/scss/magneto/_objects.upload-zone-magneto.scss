@@ -1,0 +1,40 @@
+.#{$grommet-namespace}upload-zone {
+  width: 100%;
+  min-height: 200px;
+  border-width: 2px;
+  border-color: #c1dce3;
+  border-style: dashed;
+  border-radius: 5px;
+  
+  &:hover {
+    background-color: #e3f2fa;
+  }
+
+  .#{$grommet-namespace}upload-zone__dropzone {
+    width: 100%;
+    height: 100%;
+
+    .#{$grommet-namespace}upload-zone__dropzone-content-wrapper {
+
+       .#{$grommet-namespace}upload-zone__dropzone-icon {
+         margin-bottom: 24px;
+       }
+    }
+  }
+
+  .#{$grommet-namespace}upload-zone__progress {
+
+    .#{$grommet-namespace}upload-zone__progress-bar {
+
+      .#{$grommet-namespace}meter__graphic {
+
+        width: 339px;
+
+        .#{$grommet-namespace}meter__slice {
+          stroke-width: 6px;
+        }
+      }
+    }
+  }
+}
+

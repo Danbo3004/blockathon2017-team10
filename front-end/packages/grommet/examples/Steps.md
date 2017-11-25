@@ -1,0 +1,3 @@
+```
+<Steps currentStep={1} />
+```

@@ -1,0 +1,25 @@
+.#{$grommet-namespace}search {
+  .#{$grommet-namespace}control-icon {
+    fill: $focus-border-color;
+    stroke: $focus-border-color;
+  }
+}
+
+.#{$grommet-namespace}search--inline {
+
+  .#{$grommet-namespace}search__input {
+    border-radius: $border-radius;
+  }
+
+  &.#{$grommet-namespace}search--icon-align-start.#{$grommet-namespace}search--icon-size-tiny {
+    .#{$grommet-namespace}search__input {
+      padding-left: 30px;
+    }
+  }
+
+  &.#{$grommet-namespace}search--icon-align-end.#{$grommet-namespace}search--icon-size-tiny {
+    .#{$grommet-namespace}search__input {
+      padding-right: 30px;
+    }
+  }
+}

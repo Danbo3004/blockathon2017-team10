@@ -1,0 +1,18 @@
+.#{$grommet-namespace}select-shift {
+  
+ .r-ss-search-inner.r-ss-search-inner--check-all {
+    border-bottom: 1px solid #ededed;
+  }
+
+ .body-options {
+   margin-left: 12px;
+   list-style: none;
+   outline: none;
+   &:focus{
+      outline: none;  
+    }
+   > li {
+     margin: 10px auto;
+   }
+ }
+}

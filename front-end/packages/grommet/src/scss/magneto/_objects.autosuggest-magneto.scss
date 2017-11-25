@@ -1,0 +1,297 @@
+//----------------------- Local Var ---------------*/
+$control-icon-size: 13px;
+$padding-with-control-icon: 0;
+
+$input-size: (
+  small: ($inuit-base-spacing-unit - $control-font-size) * 2,
+  medium: $inuit-base-spacing-unit,
+  large: $inuit-base-spacing-unit--large
+);
+
+//-------------------------------------------------*/
+
+.#{$grommet-namespace}autosuggest {
+  font-size: $base-font-size;
+
+  .#{$grommet-namespace}autosuggest-input {
+    @include input();
+    width: 100%;
+    &:focus {
+      outline: none;
+    }
+
+    @each $size-name, $size in $input-size {
+      &--#{$size-name} {
+        &, &:focus {
+          padding: (halve($size) - $input-border-width) ($size - $input-border-width);
+        }
+      }
+    }
+  }
+
+  &__search-icon,
+  &__clear-component {
+    position: relative;
+    display: block;
+
+    @each $size-name, $size in $input-size {
+      $vertical-padding: halve($size) - $input-border-width;
+      $horizontal-padding: $inuit-base-spacing-unit - $input-border-width;
+
+      .#{$grommet-namespace}autosuggest-input {
+        &--#{$size-name} {
+          &, &:focus {
+            padding: $vertical-padding $horizontal-padding;
+          }
+        }
+      }
+
+      &.#{$grommet-namespace}autosuggest--#{$size-name} {
+        .#{$grommet-namespace}autosuggest__closer {
+          right: $horizontal-padding - $control-icon-size;
+        }
+
+        .#{$grommet-namespace}autosuggest--search-icon {
+          left: $horizontal-padding - $control-icon-size;
+        }
+      }
+    }
+
+    .#{$grommet-namespace}autosuggest__container {
+      width: 100%;
+    }
+
+    .#{$grommet-namespace}control-icon {
+      vertical-align: top;
+    }
+
+    .#{$grommet-namespace}button__icon {
+      padding: 0;
+    }
+
+    .#{$grommet-namespace}control-icon,
+    .#{$grommet-namespace}autosuggest__closer {
+      position: absolute;
+      display: inline-block;
+      top: 50%;
+      @include vp-transform(translateY(-50%));
+      @include size($control-icon-size);
+    }
+  }
+
+  &__clear-component {
+    .#{$grommet-namespace}button {
+      cursor: pointer;
+
+      .#{$grommet-namespace}control-icon {
+        stroke: nth($brand-accent-colors, 1);
+      }
+    }
+
+    .#{$grommet-namespace}autosuggest-input {
+      @each $size-name, $size in $input-size {
+        &--#{$size-name} {
+          &, &:focus {
+          }
+        }
+      }
+    }
+  }
+
+  &__search-icon {
+    .#{$grommet-namespace}control-icon {
+      stroke: nth($brand-accent-colors, 1);
+    }
+
+    .#{$grommet-namespace}autosuggest-input {
+      @each $size-name, $size in $input-size {
+        &--#{$size-name} {
+          &, &:focus {
+          }
+        }
+      }
+    }
+  }
+
+  &--one-line-option {
+    .#{$grommet-namespace}autosuggest__container--open {
+      .#{$grommet-namespace}autosuggest__suggestions-container {
+        width: auto;
+
+        .#{$grommet-namespace}autosuggest__suggestions-list {
+          .#{$grommet-namespace}autosuggest__suggestion {
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+  }
+}
+
+.#{$grommet-namespace}autosuggest__container {
+  position: relative;
+  line-height: 1.43;
+  width: 100%;
+}
+
+.#{$grommet-namespace}autosuggest__suggestions-container {
+  display: none;
+}
+
+.#{$grommet-namespace}autosuggest__container--open .#{$grommet-namespace}autosuggest__suggestions-container {
+  display: block;
+  position: absolute;
+  top: calc(100% + 3px);
+  width: 100%;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  background-color: $layer-background-color;
+  box-shadow: $layer-box-shadow;
+  z-index: 20;
+  max-height: 350px;
+  overflow-y: auto;
+  @include webkit-scrollbars(5px, #e3e3e3, transparent);
+}
+
+.#{$grommet-namespace}autosuggest__suggestions-list {
+  margin: 0;
+  list-style-type: none;
+
+  .#{$grommet-namespace}autosuggest__suggestion {
+    padding: 8px 14px;
+    font-size: $base-font-size;
+    line-height: 1.43;
+    font-weight: $text-font-weight;
+
+    &--focused {
+      font-weight: $text-strong-font-weight;
+      background-color: $hover-background-color;
+    }
+  }
+}
+
+.#{$grommet-namespace}autosuggest__suggestion {
+  padding: quarter($inuit-base-spacing-unit);
+  cursor: pointer;
+}
+
+.suggestion-content {
+  font-size: $base-font-size;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.highlight {
+  color: $brand-color;
+  font-weight: bold;
+}
+
+.#{$grommet-namespace}autosuggest__suggestion--focused .highlight {
+  color: $brand-color;
+}
+
+// When in a Formfield
+.#{$grommet-namespace}form-field {
+  &.form-field-autosuggest {
+    overflow: visible;
+    .#{$grommet-namespace}form-field__contents {
+      overflow: visible;
+
+      .#{$grommet-namespace}autosuggest-input {
+        @each $size-name, $size in $input-size {
+          padding: (halve($size) - $input-border-width) ($size - $input-border-width);
+
+          &--#{$size-name} {
+            &, &:focus {
+              padding: (halve($size) - $input-border-width) ($size - $input-border-width);
+            }
+          }
+        }
+      }
+
+      .#{$grommet-namespace}autosuggest__closer {
+        right: 0;
+      }
+
+      .#{$grommet-namespace}autosuggest--search-icon {
+        left: 0;
+      }
+
+      .#{$grommet-namespace}autosuggest__container {
+        input {
+          border: 0;
+          font-size: $base-font-size;
+          font-weight: 300;
+          line-height: 1.43em;
+        }
+      }
+    }
+  }
+  .#{$grommet-namespace}autosuggest__input {
+    border: 0;
+  }
+
+  //.#{$grommet-namespace}autosuggest__suggestion {
+  //  padding: $form-vertical-padding $form-horizontal-padding;
+  //  margin-left: - $form-vertical-padding;
+  //  margin-right: - $form-vertical-padding;
+  //}
+}
+
+.#{$grommet-namespace}autosuggest--icon {
+  border: 1px solid #ededed;
+  border-radius: $border-radius;
+  position: relative;
+
+  .#{$grommet-namespace}control-icon {
+    left: 12px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    fill: $secondary-color;
+    stroke: $secondary-color;
+  }
+
+  .#{$grommet-namespace}autosuggest--icon__container {
+    width: 100%;
+    position: relative;
+
+    input,
+    input:focus {
+      border: none;
+      padding: 9px 23px 9px 30px;
+      font-size: 0.875rem;
+      line-height: normal;
+    }
+
+    .#{$grommet-namespace}autosuggest--icon__suggestions-container {
+      position: absolute;
+      top: calc(100% + 1px);
+      width: 100%;
+      background: #fff;
+      border-radius: $border-radius;
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .3);
+      display: none;
+      z-index: 10;
+
+      > ul {
+        margin: 0;
+        list-style-type: none;
+
+        .#{$grommet-namespace}autosuggest--icon__suggestion {
+          padding: 4px 12px;
+
+          &--focused {
+            background-color: rgba(221, 221, 221, 0.5);
+          }
+        }
+      }
+    }
+
+    &--open {
+      .#{$grommet-namespace}autosuggest--icon__suggestions-container {
+        display: block;
+      }
+    }
+  }
+}

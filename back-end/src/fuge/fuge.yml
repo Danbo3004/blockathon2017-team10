@@ -1,0 +1,42 @@
+fuge_global:
+  tail: true
+  monitor: true
+  monitor_excludes:
+    - '**/node_modules/**'
+    - '**/.git/**'
+    - '**/*.log'
+    - '**/.node-xmlhttprequest*'
+
+contract-service:
+  type: process
+  path: ../contract-service
+  run: 'node service.js'
+
+# cache-service:
+#   type: process
+#   path: ../cache-service
+#   run: 'node index.js'
+
+# mongo-util-service:
+#   type: process
+#   path: ../mongo-util-service
+#   run: 'node index.js'
+
+# user-service:
+#   type: process
+#   path: ../user-service
+#   run: 'node service.js'
+
+
+upload-service:
+  type: process
+  path: ../upload-service
+  run: 'node index.js'
+
+api:
+  type: process
+  path: ../api
+  run: 'npm start'
+  ports:
+    - api=8789
+

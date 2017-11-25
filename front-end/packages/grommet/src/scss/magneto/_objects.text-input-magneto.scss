@@ -1,0 +1,35 @@
+$input-size: (
+  small: ($inuit-base-spacing-unit - $control-font-size) * 2,
+  medium: $inuit-base-spacing-unit,
+  large: $inuit-base-spacing-unit--large
+);
+
+.#{$grommet-namespace}text-input {
+  @include input();
+  line-height: 1.36;
+  height: auto;
+
+  &__input {
+    min-width: 0;
+  }
+
+  &__unit {
+    margin-left: 5px;
+    color: $text-color;
+    font-size: $base-font-size;
+    font-weight: $text-font-weight;
+  }
+
+  @each $size-name, $size in $input-size {
+    &--#{$size-name} {
+      &, &:focus {
+        padding: (halve($size) - $input-border-width) ($size - $input-border-width);
+      }
+    }
+  }
+}
+
+.#{$grommet-namespace}text-input__suggestion {
+  padding: quarter($inuit-base-spacing-unit) $inuit-base-spacing-unit;
+  cursor: pointer;
+}

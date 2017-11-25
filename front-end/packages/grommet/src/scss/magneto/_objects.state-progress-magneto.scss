@@ -1,0 +1,119 @@
+.state-progress {
+  //----------------------- Local Var ---------------*/
+  $dot-size: 17px;
+  $color: #929292;
+  $active-color: #4db035;
+  $border-color: #bdbdbd;
+
+  //-------------------------------------------------*/
+
+  color: $color;
+  text-transform: uppercase;
+  font-size: $content-small-font-size;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: 0.2px;
+  overflow: hidden;
+  text-align: center;
+
+  .state-wrapper {
+    position: relative;
+    flex-basis: 20%;
+
+    .#{$grommet-namespace}control-icon {
+      position: absolute;
+      left: -7px;
+      @include size($dot-size);
+
+      path {
+        stroke: #ec4030;
+      }
+    }
+
+    .dot-wrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 9px;
+
+      &::before {
+        $margin: 10px;
+
+        content: '';
+        flex-grow: 1;
+        height: 0;
+        width: calc(100% - #{$margin*2} - #{$dot-size});
+        margin-left: $margin + $dot-size;
+        border-top: 1px solid #d6d6d6;
+        position: absolute;
+        top: 8px;
+      }
+
+      .dot {
+        @include size($dot-size);
+        position: relative;
+        background: $background-color;
+        border-radius: 50%;
+        border: 1px solid $border-color;
+        overflow: visible;
+        display: inline-block;
+        vertical-align: middle;
+
+        .#{$grommet-namespace}control-icon {
+          left: -1px;
+          top: 2px;
+          @include size(17px 10px);
+          stroke: $border-color;
+        }
+
+        .step {
+          color: $color;
+          font-size: 10px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.6;
+          letter-spacing: 0.2px;
+          left: 5px;
+          position: absolute;
+        }
+      }
+    }
+
+    &.active {
+      color: $active-color;
+      .dot-wrapper {
+        .dot {
+          border-color: $active-color;
+
+          .#{$grommet-namespace}control-icon {
+            stroke: $active-color;
+          }
+        }
+
+        &::before {
+          border-color: $active-color;
+        }
+      }
+
+      &.current {
+        .dot-wrapper {
+          &::before {
+            border-color: #d6d6d6;
+          }
+        }
+      }
+    }
+
+    &:last-child {
+      .dot-wrapper {
+        &::before {
+          display: none;
+          width: 0;
+        }
+      }
+    }
+  }
+}

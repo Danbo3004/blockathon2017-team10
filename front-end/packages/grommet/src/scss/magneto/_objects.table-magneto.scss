@@ -1,0 +1,241 @@
+$table-strong: #3a3a3a;
+$subtitle-font-size: 13px;
+$small-font-size: 11px;
+
+$table-pad: (
+  small: 18px,
+  medium: $inuit-base-spacing-unit
+);
+
+$table-border: (
+  none: 0,
+  row: 0 0 1px 0,
+  cell: 1px
+);
+
+$table-cell-vertical-align: (
+  top: top,
+  middle: middle,
+  bottom: bottom
+);
+
+.#{$grommet-namespace}table {
+
+  table {
+    thead {
+      th, td {
+        text-transform: uppercase;
+        color: #b0b0b0;
+        font-size: 12px;
+
+        &:hover {
+          color: $text-color;
+        }
+
+        button, a {
+          color: inherit;
+          font-size: inherit;
+          text-transform: inherit;
+          &:hover {
+            color: $text-color;
+          }
+        }
+
+        $icon-size: 13px;
+        .#{$grommet-namespace}search {
+          &__input {
+            padding-left: $icon-size*2.5 !important;
+          }
+        }
+
+        .#{$grommet-namespace}control-icon {
+          @include size($icon-size);
+        }
+
+        // Fixed size for control in table heading
+        .#{$grommet-namespace}text-input {
+          padding: 7px 10px;
+          font-weight: 300;
+          font-size: 14px;
+        }
+
+        .#{$grommet-namespace}search .#{$grommet-namespace}input.#{$grommet-namespace}search__input {
+          padding: 8.5px 10px;
+          font-weight: 300;
+          font-size: 14px;
+        }
+
+        .#{$grommet-namespace}select {
+          .#{$grommet-namespace}input.#{$grommet-namespace}select__input {
+            width: 100%;
+            padding: 7.5px 30px 7.5px 10px;
+            font-weight: 300;
+            font-size: 14px;
+          }
+
+          .#{$grommet-namespace}button__icon {
+            padding: 0 5px 0 0;
+          }
+        }
+        // ---------- ** --------------
+      }
+    }
+
+    tbody {
+      td {
+        &, p {
+          color: $text-color;
+          font-size: 14px;
+          font-weight: 300;
+        }
+
+        strong, b {
+          color: $table-strong;
+          font-weight: 400;
+        }
+
+        p {
+          display: block;
+        }
+
+        small {
+          color: #8e8e8e;
+          font-size: $small-font-size;
+          font-weight: normal;
+          line-height: 1.45;
+          text-transform: uppercase;
+        }
+
+        span {
+          &.datetime {
+            white-space: nowrap;
+
+            span.time {
+              margin-left: 9px;
+
+              &:before {
+                content: '';
+                @include size(3px);
+                position: relative;
+                display: inline-block;
+                vertical-align: middle;
+                margin: 0 8px 0 0;
+                @include border-left-radius(50%);
+                @include border-right-radius(50%);
+                background-color: #dddcdc;
+              }
+            }
+          }
+
+          &.subtitle {
+            font-weight: normal;
+            color: $secondary-text-color;
+            font-size: $subtitle-font-size;
+          }
+        }
+
+        .#{$grommet-namespace}button--plain {
+          text-decoration: none;
+
+        }
+
+        .#{$grommet-namespace}paragraph {
+          margin: 0;
+          line-height: 1.57;
+        }
+        .ReactTags_delete-only {
+          .ReactTags__tagInput {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  // Cell padding
+  @each $size-name, $size in $table-pad {
+    &--pad-#{$size-name} {
+      th, td {
+        // -1 to accommodate border
+        padding: (halve($size) - 1) halve($size);
+        text-align: left;
+
+        &:first-child {
+          padding-left: $size;
+        }
+
+        &:last-child {
+          padding-right: $size;
+        }
+      }
+    }
+  }
+
+  // Cell Border
+  @each $border-name, $border-width in $table-border {
+    &--border-#{$border-name} {
+      tr {
+        th, td {
+          border-style: solid;
+          border-color: $border-color;
+          border-width: $border-width;
+        }
+      }
+
+      @if $border-name == row {
+        tbody tr {
+          &:last-child {
+            th, td {
+              border-bottom-color: transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Cell Align
+  @each $cv-align-name, $cv-align-value in $table-cell-vertical-align {
+    &--vertical-align-#{$cv-align-name} {
+      tr {
+        td, th {
+          vertical-align: $cv-align-value;
+        }
+      }
+    }
+  }
+}
+
+.#{$grommet-namespace}table__more {
+}
+
+.#{$grommet-namespace}table--selectable {
+  .#{$grommet-namespace}table__table {
+  }
+
+  .#{$grommet-namespace}table__table--focus {
+  }
+
+  tbody {
+    tr {
+
+      td {
+      }
+
+      &.#{$grommet-namespace}table-row--selected {
+      }
+
+      &.#{$grommet-namespace}table-row--active,
+      &:hover {
+        td {
+
+          #{$dark-background-context} {
+          }
+
+          #{$light-background-context} {
+          }
+        }
+      }
+    }
+  }
+}

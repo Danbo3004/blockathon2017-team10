@@ -1,0 +1,6 @@
+{
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "prettier.eslintIntegration": true,
+  "javascript.format.enable": false
+}

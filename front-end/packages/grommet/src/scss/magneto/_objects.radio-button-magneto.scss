@@ -1,0 +1,43 @@
+.#{$grommet-namespace}radio-button {
+  .#{$grommet-namespace}radio-button__label {
+    font-size: 16px;
+    color: #262626;
+  }
+}
+
+.#{$grommet-namespace}radio-button:hover:not(.#{$grommet-namespace}radio-button--disabled) {
+  .#{$grommet-namespace}radio-button__control {
+    border-color: #2c9add;
+  }
+
+  .#{$grommet-namespace}radio-button__input:checked
+    + .#{$grommet-namespace}radio-button__control {
+    border-color: #2c9add;
+  }
+}
+
+.#{$grommet-namespace}radio-button__input
+  + .#{$grommet-namespace}radio-button__control {
+  box-shadow: none;
+  outline: none;
+  border: solid 2px #d6d6d6;
+}
+
+.#{$grommet-namespace}radio-button__input:checked
+  + .#{$grommet-namespace}radio-button__control:after {
+  $dot-size: 8px;
+
+  @include size($dot-size);
+  top: ($control-size - $dot-size)/2 - 2;
+  left: ($control-size - $dot-size)/2 - 2;
+}
+
+.#{$grommet-namespace}radio-button__input:focus
+  + .#{$grommet-namespace}radio-button__control {
+  box-shadow: none;
+}
+
+.#{$grommet-namespace}radio-button__input:checked
+  + .#{$grommet-namespace}radio-button__control {
+  border-color: #2c9add;
+}

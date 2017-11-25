@@ -1,0 +1,80 @@
+
+.#{$grommet-namespace}badges {
+
+  //----------------------- Local Mixin ---------------*/
+
+  @mixin mixin-name() {
+  }
+
+  //----------------------- Local Var ---------------*/
+
+  //-------------------------------------------------*/
+
+  &--type-1 {
+    $w: 36px;
+    $h: 20px;
+    $bg: nth($brand-accent-colors, 2);
+
+    //== -------------------------------
+
+    color: #fff;
+    font-size: 11px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: $bg;
+    padding: 4px 0px 4px 4px;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: -$h/2;
+      @include triangle($h, $bg, right);
+    }
+
+    &.#{$grommet-namespace}badges--small {
+      $h: 16px;
+      padding: 2px 0 2px 2px;
+      &:after {
+        right: -$h/2;
+        @include triangle($h, $bg, right);
+      }
+    }
+  }
+
+  &--type-2 {
+    $w: 54px;
+    $h: $w;
+    $bg: #f4fcf2;
+    $border-color: #b4deaa;
+
+    //== -------------------------------
+
+    font-size: 24px;
+    font-weight: 300;
+    display: block;
+    color: nth($brand-accent-colors, 2);
+    border: 1px solid $border-color;
+    background-color: $bg;
+    @include size($w);
+    @include border-top-radius($border-radius);
+    @include border-bottom-radius($border-radius);
+
+    .#{$grommet-namespace}box {
+      @include size($w - 2);
+    }
+
+    &.#{$grommet-namespace}badges--small {
+      $w: 47px;
+      @include size($w);
+      font-size: 18px;
+
+      .#{$grommet-namespace}box {
+        @include size($w - 2);
+      }
+    }
+  }
+}
+

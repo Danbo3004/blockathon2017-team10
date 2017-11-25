@@ -1,0 +1,29 @@
+
+.#{$grommet-namespace}meter-point {
+  //----------------------- Local Var ---------------*/
+  //-------------------------------------------------*/
+
+  .#{$grommet-namespace}meter-point--meter {
+    .#{$grommet-namespace}meter--xsmall .grommetux-meter__slice {
+      stroke-width: 16px;
+    }
+    .#{$grommet-namespace}meter__values .#{$grommet-namespace}meter__slice {
+      &:hover {
+        stroke-width: double($meter-slice-active-width);
+      }
+    }
+  }
+  .#{$grommet-namespace}meter-point--label-value {
+    padding: 0 18px;
+    &, .span {
+      font-size: $base-font-size;
+      color: $text-color;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.57;
+      letter-spacing: normal;
+    }
+  }
+}
+

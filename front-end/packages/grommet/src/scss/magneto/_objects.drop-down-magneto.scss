@@ -1,0 +1,75 @@
+.#{$grommet-namespace}drop-down {
+  cursor: pointer;
+}
+
+.#{$grommet-namespace}drop-down__body {
+  @include pad();
+  background: white;
+  border-radius: $border-radius;
+  position: relative;
+}
+
+.#{$grommet-namespace}drop-down__popup--dark {
+  .grommetux-drop-down__body {
+    background: #273136;
+  }
+}
+
+.#{$grommet-namespace}drop-down__popup {
+  border-radius: $border-radius;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.Popover {
+  z-index: 2;
+
+  .Popover-tipWrapper {
+    background: white;
+  }
+
+  &.#{$grommet-namespace}drop-down__popup--dark {
+    .Popover-body {
+      &:before {
+        background: #273136;
+      }
+    }
+  }
+
+  &.#{$grommet-namespace}drop-down__popup--below {
+    .Popover-body {
+      &:before {
+        left: 50%;
+        transform: translate(-50%, -5px) rotate(45deg);
+      }
+    }
+  }
+
+  &.#{$grommet-namespace}drop-down__popup--right {
+    .Popover-body {
+      &:before {
+        top: 50%;
+        transform: translate(-5px, -50%) rotate(45deg);
+      }
+    }
+  }
+
+  &.#{$grommet-namespace}drop-down__popup--above {
+    .Popover-body {
+      &:before {
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 5px) rotate(45deg);
+      }
+    }
+  }
+
+  &.#{$grommet-namespace}drop-down__popup--left {
+    .Popover-body {
+      &:before {
+        top: 50%;
+        right: 0;
+        transform: translate(5px, -50%) rotate(45deg);
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+.#{$grommet-namespace}visualization-bar {
+
+  //----------------------- Local Var ---------------*/
+  $default-size: 114px 70px;
+  //-------------------------------------------------*/
+
+  color: #fff;
+  letter-spacing: 0.3px;
+  justify-content: flex-end;
+  @include media-query(portable) {
+    display: block;
+  }
+
+  .#{$grommet-namespace}visualization-bar--item {
+    @include size($default-size);
+    font-weight: normal;
+    font-size: 11px;
+    background-color: rgba(0, 142, 171, 0.3);
+    border: solid 1px #0891a6;
+    border-right: solid 1px rgba(#0891a6, 0.7);
+    border-left: 0;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+    &:first-child {
+      border-left: solid 1px #0891a6;
+      @include border-left-radius($border-radius);
+    }
+    &:last-child {
+      @include border-right-radius($border-radius);
+    }
+
+    .#{$grommet-namespace}value__value {
+      font-size: 24px;
+      font-weight: 300;
+    }
+
+    .#{$grommet-namespace}value__label {
+      text-transform: uppercase;
+      line-height: 2.18;
+      font-size: 11px;
+      font-weight: normal;
+      margin-top: 0;
+    }
+
+    @include media-query(portable) {
+      display: inline-flex;
+      &:nth-child(1),
+      &:nth-child(2),
+      &:nth-child(3) {
+        @include size(33.3333333333333333% 55px);
+      }
+      &:nth-child(1) {
+        border-bottom-left-radius: 0;
+      }
+      &:nth-child(3) {
+        border-top-right-radius: $border-radius;
+      }
+      &:nth-child(4),
+      &:nth-child(5) {
+        border-top: 0;
+        @include size(50% 55px);
+      }
+      &:nth-child(4) {
+        border-left: solid 1px #0891a6;
+        border-bottom-left-radius: $border-radius;
+      }
+      &:nth-child(5) {
+        border-top-right-radius: 0;
+      }
+      .#{$grommet-namespace}value__value {
+        font-size: 18px;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.#{$grommet-namespace}counting-tab-title {
+  color: #7a7a7a;
+  text-align: center;
+
+  &__number {
+    font-size: 36px;
+    line-height: 23px;
+    margin-bottom: 10px;
+    font-weight: 300;
+  }
+
+  &__description {
+    font-size: 16px;
+    line-height: 23px;
+  }
+}

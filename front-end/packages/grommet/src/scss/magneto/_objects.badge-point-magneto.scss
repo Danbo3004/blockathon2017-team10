@@ -1,0 +1,109 @@
+
+.#{$grommet-namespace}badge-point {
+
+  //----------------------- Local Mixin ---------------*/
+
+  @mixin make-key-frames($name: rotating, $rotateFrom: -35deg, $rotateTo: 325deg) {
+    @include vp-keyframes($name) {
+      from {
+        @include vp-transform(rotate($rotateFrom) skewX(75deg))
+      }
+      to {
+        @include vp-transform(rotate($rotateTo) skewX(75deg))
+      }
+    }
+  }
+
+  //----------------------- Local Var ---------------*/
+  $radius-outer: 58px;
+  $radius-inner: 48px;
+  $border-size: 2px;
+
+  $font-size: 36px;
+
+  $color: nth($brand-accent-colors, 1);
+  $bg-color: $background-color;
+
+  $outer-border: nth($brand-accent-colors, 2);
+  $inner-border: $color;
+  //-------------------------------------------------*/
+
+  color: $color;
+  font-size: $font-size;
+  font-weight: 300;
+
+  &--outer {
+    border: $border-size dashed $outer-border;
+    position: relative;
+    overflow: hidden;
+    @include size(double($radius-outer));
+    @include border-top-radius(50%);
+    @include border-bottom-radius(50%);
+  }
+
+  &--inner {
+    border: $border-size solid $inner-border;
+    position: relative;
+    @include size(double($radius-inner));
+    @include border-top-radius(50%);
+    @include border-bottom-radius(50%);
+
+    .arc {
+      overflow: hidden;
+      @include media-query(palm) {
+        overflow-x: auto
+      }
+      position: absolute;
+      top: -($border-size+1);
+      left: -($border-size+1);
+      right: 50%;
+      bottom: 50%;
+      transform-origin: 100% 100%;
+
+      &:before {
+        content: '';
+        display: block;
+        box-sizing: border-box;
+        border: solid ($border-size + 4) $bg-color;
+        border-radius: 50%;
+        transform: skewX(-75deg);
+        @include size(200%);
+      }
+
+      &.arc-1 {
+        transform: rotate(-40deg) skewX(75deg);
+      }
+
+      &.arc-2 {
+        transform: rotate(-80deg) skewX(75deg);
+      }
+
+      &.arc-3 {
+        transform: rotate(-180deg) skewX(75deg);
+      }
+
+      &--with-animation {
+        $animation: 2s linear infinite;
+        &.arc-1 {
+          @include make-key-frames();
+          @include vp-animation(rotating $animation);
+        }
+
+        &.arc-2 {
+          $keyframesName: rotating-1;
+
+          @include make-key-frames($keyframesName, -80deg, 280deg);
+          @include vp-animation($keyframesName $animation);
+        }
+
+        &.arc-3 {
+          $keyframesName: rotating-2;
+
+          @include make-key-frames($keyframesName, -180deg, 180deg);
+          @include vp-animation($keyframesName $animation);
+        }
+      }
+    }
+  }
+}
+
