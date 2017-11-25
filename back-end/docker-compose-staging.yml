@@ -17,7 +17,7 @@ services:
       - redis
     labels:
       - "traefik.backend=api"
-      - "traefik.frontend.rule=HostRegexp: 127001.space, {subdomain:[a-z]+}.127001.space;PathPrefixStrip: /api/"
+      - "traefik.frontend.rule=HostRegexp: meditrak.online, {subdomain:[a-z]+}.meditrak.online;PathPrefixStrip: /api/"
       - "traefik.port=8789"
       - "traefik.frontend.entryPoints=http"
     ports:

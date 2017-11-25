@@ -1,3 +1,3 @@
 module.exports = {
-  appDomain: '127001.space',
+  appDomain: 'meditrak.online',
 };
