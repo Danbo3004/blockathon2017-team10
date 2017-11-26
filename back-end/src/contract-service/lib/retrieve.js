@@ -1,17 +1,12 @@
-const Web3 = require('web3');
-const web3 = new Web3();
+const retrieve = require('../utils/retrieve');
 
-web3.setProvider(new web3.providers.HttpProvider('http://www.blockathon.asia:8545/'));
-
-async function store(msg) {
+async function retrieveFunc(msg) {
   const hemera = this;
+  const { privateKey } = msg;
 
-  // web3.eth.getAccounts(console.log);
+  const result = await retrieve(privateKey);
 
-  // console.log(web3.eth.accounts.create());
-
-  console.log(msg);
-  return msg;
+  return result;
 }
 
-module.exports = store;
+module.exports = retrieveFunc;

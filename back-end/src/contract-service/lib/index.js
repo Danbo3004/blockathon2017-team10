@@ -27,7 +27,7 @@ exports.plugin = Hp(function userService(options, next) {
       cmd: 'retrieve',
       privateKey: Joi.string().required()
     },
-    storeFunc
+    retrieveFunc
   );
   next();
 });
