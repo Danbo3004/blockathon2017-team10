@@ -39,8 +39,9 @@ class ViewStore {
   @action
   submit() {
     const values = this.form.values();
+    this.isSaving = true;
 
-    const reader = new FileReader();
+    // const reader = new FileReader();
 
     // reader.onload = (event) => {
     //   transport
@@ -55,9 +56,19 @@ class ViewStore {
 
     // reader.readAsDataURL(this.file);
 
-    this.uploadFile().then((fileLink) => {
-      postToContract(Object.assign(values, { fileLink }));
+    return this.uploadFile().then((fileLink) => {
+      postToContract(Object.assign(values, { fileLink }))
+        .then(() => {
+          this.viewStore.toggleSaving();
+          alert('Store file successfully');
+        })
+        .catch(() => alert('An error occurred, please try again later'));
     });
+  }
+
+  @action
+  toggleSaving() {
+    this.isSaving = !this.isSaving;
   }
 }
 

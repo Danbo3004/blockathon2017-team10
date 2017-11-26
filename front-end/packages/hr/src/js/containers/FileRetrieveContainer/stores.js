@@ -10,6 +10,7 @@ import KeyFormModel from './forms';
 class ViewStore {
   @observable form;
   @observable isSaving = false;
+  @observable link;
 
   constructor() {
     this.form = new KeyFormModel();
@@ -20,7 +21,13 @@ class ViewStore {
     this.isSaving = true;
     const values = this.form.values();
 
-    postToContract(Object.assign(values)).then(action(() => (this.isSaving = false)));
+    postToContract(Object.assign(values)).then(
+      action((data) => {
+        const link = data.data;
+        this.isSaving = false;
+        this.link = link;
+      }),
+    );
   }
 }
 

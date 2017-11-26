@@ -3,6 +3,7 @@ import { observer } from 'mobx-react';
 import Box from '@meditrak/base/dist/components/Box';
 import Web3 from 'web3';
 
+import Anchor from '@meditrak/base/dist/components/Anchor';
 import Heading from '@meditrak/base/dist/components/Heading';
 import FormField from '@meditrak/base/dist/components/FormField';
 import TextInput from '@meditrak/base/dist/components/TextInput';
@@ -61,6 +62,12 @@ class FileRetrieveContainer extends Component {
                     />
                   </FormField>
                 </div>
+                {this.viewStore.link && (
+                  <span>
+                    Your file link:{' '}
+                    <Anchor href={this.viewStore.link} label={this.viewStore.link} />
+                  </span>
+                )}
                 <div className={`${CLASSROOT}__form-actions`}>
                   <ButtonWithLoading
                     isLoading={this.viewStore.isSaving}

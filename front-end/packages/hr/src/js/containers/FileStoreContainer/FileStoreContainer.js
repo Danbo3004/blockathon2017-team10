@@ -6,7 +6,7 @@ import Web3 from 'web3';
 import Heading from '@meditrak/base/dist/components/Heading';
 import FormField from '@meditrak/base/dist/components/FormField';
 import TextInput from '@meditrak/base/dist/components/TextInput';
-import Button from '@meditrak/base/dist/components/Button';
+import ButtonWithLoading from '@meditrak/base/dist/components/ButtonWithLoading';
 
 import FileUploadContainer from '../FileUploadContainer';
 
@@ -65,7 +65,8 @@ class FileStoreContainer extends Component {
                   />
                 </div>
                 <div className={`${CLASSROOT}__form-actions`}>
-                  <Button
+                  <ButtonWithLoading
+                    isLoading={this.viewStore.isSaving}
                     label="Submit"
                     primary
                     onClick={e => form.onSubmit(e, { onSuccess: this.onSubmit })}
